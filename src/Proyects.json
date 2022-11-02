@@ -1,0 +1,17 @@
+{
+    "Henry's Restaurant": {
+        "description": "Digital Restaurant where you can choose and buy your food as user. Administrate users, products, orders and deliverys as Admin. And Deliver the orders as Delivery"
+    },
+    "Henry's Game Store": {
+        "description": "E-commerce of digital videogames"
+    },
+    "Pokedex": {
+        "description": "List of Pokemons"
+    },
+    "Let's Cook!" : {
+        "description" : "Find, Create and Manage your favorites recipes"
+    },
+    "React -Candy Crush-": {
+        "description": "Candy Crush developed only whit React and Javascript Logic"
+    }
+}
