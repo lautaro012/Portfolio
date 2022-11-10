@@ -42,8 +42,15 @@ export interface ProyectProp {
 
 const proyects = [
     { 
-        name:"Henry's Restaurant", 
-        description: "Digital Restaurant where you can choose and buy your food as user. Administrate users, products, orders and deliverys as Admin. And Deliver the orders as Delivery",
+        name:"Henry's Restaurant",
+        title: "The Webpage of your favorite Restaurant:",
+        description: [
+            "🍔 Check and Download the Catalogue",
+            "🍔 Find your favorite meal and add it to the Cart (You can make suggestions ex: no pickles )",
+            "🍔 Administrate your orders, users, food and Delivery mans as Administrator",
+            "🍔 Track your orders and recieve new ones as Delivery",
+            "🍔 Check where is your order as User whit the GoogleMaps API integrated"
+        ],
         images: [
             FrontLight,
             Cart,
@@ -84,7 +91,13 @@ const proyects = [
     } ,
     {
         name:"Henry's Game Store",
-        description: "E-commerce of digital videogames",
+        title: "E-commerce of Digital Videogames:",
+        description: [
+            "💻Find your favorites videogames", 
+            "💻 Add them to the Cart",
+            "💻 Buy them (Stripe)", 
+            "💻 Administrate the users whit your admin account"
+        ],
         images: [
             Games,
             GameDetail2,
@@ -122,7 +135,12 @@ const proyects = [
     },
     {
         name:"Let's Cook!",
-        description : "Find, Create and Manage your favorites recipes",
+        title:"You don't know what to cook??",
+        description : [
+            "📌Search by differents diets",
+            "📌Order by name/rate",
+            "📌Create and Edit your own Recipes"
+        ],
         images: [
             landingcook,
             createrecipe,
@@ -155,7 +173,12 @@ const proyects = [
     },
     {
         name:"Pokedex",
-        description: "List of Pokemons",
+        title: "List of Pokemons",
+        description: [
+            "📌 Create your own pokemon whit his stats",
+            "📌 Edit any Pokemon on the list",
+            "📌 Search any pokemon by his name or ID"
+        ],
         images: [
             Landingpokedex,
             edit,
@@ -183,8 +206,8 @@ const proyects = [
         ]
     },
     {
-        name:"React -Candy Crush-",
-        description: "Candy Crush developed only whit React and Javascript Logic",
+        name:"React Crush-",
+        description: [" A 'Candy Crush' game developed only whit React and Javascript Logic"],
         images: [
             reactCrush,
             reactFinish
@@ -210,7 +233,7 @@ export default function Proyects () {
 
     return (
         <div className="bg-background p-4 ">
-            <h1>My Projects</h1>
+            <span><h1 className="duration-500 font-xl font-bold dark:text-white">My Projects</h1></span>
            {
                 proyects.map(el => {
                     return (
