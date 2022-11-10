@@ -63,7 +63,8 @@ export default function Card ({el}) {
                         return <span className='text-sm font-medium' >{words}</span>
                         })}
                     </div>
-                    <div className='flex flex-row w-full justify-around'>
+
+                    <div className='flex pt-4 flex-row w-full justify-around'>
                         <div className='button github'>
                             <i className="fab fa-github fa-2x"></i>
                         </div>

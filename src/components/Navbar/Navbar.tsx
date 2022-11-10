@@ -205,8 +205,8 @@ export default function Navbar() {
           }
           id="mobile-menu-language-select"
         >
-          <button onClick={handleOpen}> X </button>
-          <ul className="flex flex-col p-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 h-screen">
+          <button onClick={handleOpen} className='lg:hidden md:hidden'> X </button>
+          <ul className=" duration-500 flex flex-col p-4 bg-gray-50 h-12 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 h-screen">
             <li>
               <a
                 href="http://localhost:3000/"
