@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import Download from '../../Icons/Download.png'
+
 
 export default function Navbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
   const [openLanguage, setOpenLanguage] = useState(false);
   const [render, setRender] = useState(false)
 
+  const confirmToggle = () => {
+    localStorage.theme = "dark" ? handleTheme : null
+  }
+  
   const handleOpen = () => {
     openNavbar ? setOpenNavbar(false) : setOpenNavbar(true);
     setOpenLanguage(false);
@@ -14,6 +18,8 @@ export default function Navbar() {
   const handleLanguage = () => {
     openLanguage ? setOpenLanguage(false) : setOpenLanguage(true);
   };
+
+  
 
   const handleTheme = () => {
     document.getElementById("boton_dark")?.classList.toggle("sun")
@@ -25,23 +31,18 @@ export default function Navbar() {
     }
     render ? setRender(false) : setRender(true)
   }
+
+  confirmToggle()
   return (
-    <nav className=" duration-500 z-10 fixed w-screen bg-white border-gray-200 px-2 sm:px-4 rounded dark:bg-gray-900">
+    <nav tabIndex={1001} className=" duration-500 fixed w-screen bg-white border-gray-200 z-1001 px-2 sm:px-4 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center md:order-2">
             <label className="toggle">
-                <input onClick={handleTheme} type="checkbox" className="toggle__input sr-only"/>
+                <input onClick={handleTheme} type="checkbox"  className="toggle__input sr-only"/>
                 <span className="toggle__item"></span>
             </label>
         </div>
-        <div className="flex pl-10 items-center">
-          <span className="pr-1 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-            CV
-          </span>
-          <img 
-          className="duration-500 dark:invert" 
-          width={25} src={Download} alt='download-cv'></img>
-        </div>
+
         <div className="flex items-center md:order-2">
           <button
             onClick={handleLanguage}

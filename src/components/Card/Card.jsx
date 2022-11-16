@@ -19,6 +19,7 @@ export default function Card ({el}) {
                     <div onClick={handleClick} className="front-facing">
                         <Carousel
                         autoPlay={true}
+                        interval={2000}
                         infiniteLoop={true}
                         showArrows={false}
                         dynamicHeight={true}
@@ -69,7 +70,7 @@ export default function Card ({el}) {
                             <i className="fab fa-github fa-2x"></i>
                         </div>
                         <div className='button reddit'>
-                            <i class="fa-solid fa-window-maximize fa-2x"></i>
+                            <i className="fa-solid fa-window-maximize fa-2x"></i>
                         </div>
                     </div>
                 </div>
