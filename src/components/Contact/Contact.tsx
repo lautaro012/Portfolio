@@ -7,9 +7,9 @@ export default function Contact () {
 
     return (
         <div>
-            <div className='p-4 m-4 flex flex-col bg-gray-100 '>
+            <div className='p-4 m-4 flex flex-col bg-gray-100 dark:bg-gray-500'>
                 <span> Find me here: </span>
-                <div className='flex flex-row justify-evenly'>
+                <div className='flex flex-row justify-evenly '>
                     <div className='button facebook'>
                         <i className="fab fa-facebook-f fa-2x"></i>
                     </div>

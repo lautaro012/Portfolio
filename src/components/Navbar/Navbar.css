@@ -92,3 +92,7 @@
       box-shadow: inset 5px -5px #f5f5f5;
   }
   .invert { filter: invert(100%); }
+
+  .navbarconteiner {
+    z-index: 1001;
+  }

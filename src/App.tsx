@@ -9,7 +9,7 @@ import Techno from './components/Technologies/Technologies';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App dark:bg-gray-400">
       <Navbar></Navbar>
       <Frontpage></Frontpage>
       <Techno></Techno>

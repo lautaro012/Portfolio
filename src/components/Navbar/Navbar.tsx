@@ -34,7 +34,7 @@ export default function Navbar() {
 
   confirmToggle()
   return (
-    <nav tabIndex={1001} className=" duration-500 fixed w-screen bg-white border-gray-200 z-1001 px-2 sm:px-4 rounded dark:bg-gray-900">
+    <nav className="navbarconteiner duration-500 fixed w-screen bg-white border-gray-200 z-1001 px-2 sm:px-4 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center md:order-2">
             <label className="toggle">
