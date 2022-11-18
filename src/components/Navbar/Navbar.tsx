@@ -201,13 +201,15 @@ export default function Navbar() {
         <div
           className={
             openNavbar
-              ? " sidebar-conteiner  duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
-              : "hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+              ? "sidebar-conteiner  right-0   duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              : " sidebar-conteiner right-96 mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
           }
           id="mobile-menu-language-select"
         >
-          <button onClick={handleOpen} className='lg:hidden md:hidden'> X </button>
           <ul className=" duration-500 flex flex-col p-4 bg-gray-50 h-12 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 h-screen">
+            <li>
+            <button onClick={handleOpen} className='lg:hidden md:hidden'> X </button>
+            </li>
             <li>
               <a
                 href="http://localhost:3000/"
