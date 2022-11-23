@@ -1,6 +1,7 @@
 // import Typed from 'react-typed'
 import React from "react"
 import { Typewriter } from "react-simple-typewriter"
+import './Frontpage.css'
 
 
 
@@ -10,7 +11,7 @@ export default function Frontpage () {
         <div>
             <div className='string-conteiner h-screen flex flex-col justify-center'>
                 <h4> Hello, I'm </h4>
-                <h1>  ROBLES LAUTARO E. </h1>
+                <h1 className="NAME">  ROBLES LAUTARO E. </h1>
 
                 <Typewriter
                 words={[
