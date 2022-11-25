@@ -46,6 +46,7 @@ export default function Techno () {
                 <Carousel 
                 infinite={true}
                 responsive={responsive}
+                className='Carouseltest'
                 >
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img width={55} className='h-2/4' src={Typescripticon} alt='ts'></img>
@@ -92,6 +93,7 @@ export default function Techno () {
                 <h2 className='p-8'> Back-end </h2>
                 <Carousel 
                 infinite={true}
+                className='Carouseltest'
                 responsive={responsive}
                 >
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>

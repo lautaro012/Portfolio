@@ -12,20 +12,24 @@ export default function Frontpage () {
             <div className='string-conteiner h-screen flex flex-col justify-center'>
                 <h4> Hello, I'm </h4>
                 <h1 className="NAME">  ROBLES LAUTARO E. </h1>
-
-                <Typewriter
-                words={[
-                "Front End Developer",
-                "Back End Developer",
-                "Technical Engineer"
-                ]}
-                typeSpeed={50}
-                delaySpeed={1100}
-                deleteSpeed={25}
-                loop
-                />
+                <h2>
+                    <Typewriter
+                    words={[
+                    "Front End Developer",
+                    "Back End Developer",
+                    "Technical Engineer"
+                    ]}
+                    typeSpeed={50}
+                    delaySpeed={1100}
+                    deleteSpeed={25}
+                    loop
+                    />
+                </h2>
                 <br></br>
-                <span> Pequeño texto detallando cosas sobre mi  </span>
+                <span> 
+                    I am a Full Stack Developer with experience in Front-End and Back-End application development.
+                    I've been a programming enthusiast since a was a child.  
+                </span>
             </div>
         </div>
     )
