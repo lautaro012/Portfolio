@@ -201,8 +201,8 @@ export default function Navbar() {
         <div
           className={
             openNavbar
-              ? "sidebar-conteiner  right-0   duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
-              : " sidebar-conteiner right-96 mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              ? "top-0 sm:bottom-0  sm:h-screen sm:bg-sky-500/[.06] right-0   duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              : " top-0 sm:bottom-0 sm:h-screen sm:bg-sky-500/[.06] right-96 mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
           }
           id="mobile-menu-language-select"
         >
