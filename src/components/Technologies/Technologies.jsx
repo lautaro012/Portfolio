@@ -46,6 +46,8 @@ export default function Techno () {
                 <Carousel 
                 infinite={true}
                 responsive={responsive}
+                arrows={false}
+                autoPlay={true}
                 className='Carouseltest'
                 >
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
@@ -93,6 +95,9 @@ export default function Techno () {
                 <h2 className='p-8'> Back-end </h2>
                 <Carousel 
                 infinite={true}
+                arrows={false}
+                autoPlay={true}
+                transitionDuration={200}
                 className='Carouseltest'
                 responsive={responsive}
                 >

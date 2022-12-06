@@ -5,6 +5,7 @@ import Proyects from './components/Proyects/Proyects';
 import Navbar from './components/Navbar/Navbar';
 import Contact from './components/Contact/Contact';
 import Techno from './components/Technologies/Technologies';
+import Timeline from './components/Timeline/Timeline';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar></Navbar>
       <Frontpage></Frontpage>
       <Techno></Techno>
+      <Timeline></Timeline>
       <Proyects></Proyects>
       <Contact></Contact>
     </div>

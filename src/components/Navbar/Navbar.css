@@ -11,10 +11,15 @@
 } */
 
 .navbar-conteiner {
-    position: fixed;
-    top: 54px;
-    right: 45px;
+  position: absolute;
+  top: 2.5rem;
+  left: 1rem;
 }
+.textsmall{
+  font-size: 11px;
+}
+
+
 
 .navbar {
     display: flex;

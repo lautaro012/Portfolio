@@ -1,5 +1,4 @@
 import './Contact.css'
-import Download from '../../Icons/Download.png'
 import Form from './Form'
 
 
@@ -41,16 +40,7 @@ export default function Contact () {
                         Instagram.com/
                     </span>
                 </div>
-                <div className='flex flex-row justify-evenly'>
-                    <div className="flex pl-10 items-center">
-                        <img 
-                        className="duration-500 dark:invert" 
-                        width={25} src={Download} alt='download-cv'></img>
-                    </div>
-                    <span className="pr-1 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        Curriculum Vitae
-                    </span>
-                </div>
+
             </div>
 
 

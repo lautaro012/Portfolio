@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Download from '../../Icons/Download.png'
+
 import "./Navbar.css";
 
 
@@ -36,19 +38,29 @@ export default function Navbar() {
   return (
     <nav className="navbarconteiner duration-500 fixed w-screen bg-white border-gray-200 z-1001 px-2 sm:px-4 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <div className="flex items-center md:order-2">
+        <div className="flex fixed right-4 bottom-4 items-center md:order-2">
             <label className="toggle">
                 <input onClick={handleTheme} type="checkbox"  className="toggle__input sr-only"/>
                 <span className="toggle__item"></span>
             </label>
         </div>
 
-        <div className="flex items-center md:order-2">
+        <div className="flex w-screen md:order-2">
+          <button className=' cursor-pointer rounded-lg hover:text-gray-900 text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white fixed right-20'>
+              <div className=" flex flex-col m-1 align-center">
+                  <img 
+                  className="duration-500 text-gray-500 self-center dark:invert" 
+                  width={25} src={Download} alt='download-cv'></img>
+              <span className="self-center textsmall  whitespace-nowrap dark:text-white">
+                  CV
+              </span>
+              </div>
+          </button>
           <button
             onClick={handleLanguage}
             type="button"
             data-dropdown-toggle="language-dropdown-menu"
-            className="inline-flex justify-center items-center p-2 text-sm text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex justify-center w-32 absolute  items-center p-2 text-sm text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             <svg
               className="mr-2 w-5 h-5 rounded-full"
@@ -96,8 +108,8 @@ export default function Navbar() {
           <div
             className={
               openLanguage
-                ? "  navbar-conteiner z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
-                : "  navbar-conteiner  hidden z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                ? "  absolute top-12  duration-300 z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                : "  absolute top-0  duration-300 h-0 overflow-hidden z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
             }
             id="language-dropdown-menu"
             data-popper-reference-hidden=""
@@ -109,13 +121,13 @@ export default function Navbar() {
                 <a
                   href="http://localhost:3000/"
                   onClick={handleLanguage}
-                  className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                  className="block p-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                   role="menuitem"
                 >
                   <div className="inline-flex items-center">
                     <svg
                       aria-hidden="true"
-                      className="h-3.5 w-3.5 rounded-full mr-2"
+                      className="h-4 w-4 rounded-full mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       id="flag-icon-css-us"
                       viewBox="0 0 512 512"
@@ -158,7 +170,7 @@ export default function Navbar() {
                 >
                   <div className="inline-flex items-center">
                     <svg
-                      className="h-3.5 w-3.5 rounded-full mr-2"
+                      className="h-4 w-4 rounded-full mr-2"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       id="flag-icon-css-de"
@@ -178,7 +190,7 @@ export default function Navbar() {
             onClick={handleOpen}
             data-collapse-toggle="mobile-menu-language-select"
             type="button"
-            className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex absolute right-4 items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-language-select"
             aria-expanded="false"
           >
@@ -198,11 +210,12 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
+     
         <div
           className={
             openNavbar
-              ? "top-0 sm:bottom-0  sm:h-screen sm:bg-sky-500/[.06] right-0   duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
-              : " top-0 sm:bottom-0 sm:h-screen sm:bg-sky-500/[.06] right-96 mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              ? "top-0 relative sm:bottom-0  sm:h-screen sm:bg-sky-500/[.06] right-0   duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              : " top-0 relative sm:bottom-0 sm:h-screen sm:bg-sky-500/[.06] right-96 mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
           }
           id="mobile-menu-language-select"
         >
