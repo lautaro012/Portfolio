@@ -214,8 +214,8 @@ export default function Navbar() {
         <div
           className={
             openNavbar
-              ? "top-0 relative sm:bottom-0  sm:h-screen sm:bg-sky-500/[.06] right-0   duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
-              : " top-0 relative sm:bottom-0 sm:h-screen sm:bg-sky-500/[.06] right-96 mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              ? "top-0 sm:w-0 right-0 relative sm:bottom-0 md:h-12 sm:h-screen sm:bg-sky-500/[.06]  duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
+              : " top-0 md:right-0 right-[1000px] sm:w-0 relative sm:bottom-0 md:h-12  sm:h-screen sm:bg-sky-500/[.06]  sm:mr-12 duration-500 justify-between items-center w-full md:flex md:w-auto md:order-1"
           }
           id="mobile-menu-language-select"
         >
