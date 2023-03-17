@@ -11,12 +11,24 @@ import Timeline from './components/Timeline/Timeline';
 function App() {
   return (
     <div className="App dark:bg-gray-400">
-      <Navbar2></Navbar2>
-      <Frontpage></Frontpage>
-      <Techno></Techno>
-      <Timeline></Timeline>
-      <Proyects></Proyects>
-      <Contact></Contact>
+      <div>
+        <Navbar2></Navbar2>
+      </div>
+      <div className='duration-500'  id='home'>
+        <Frontpage></Frontpage>
+      </div>
+      <div className='duration-500' id='technologies'>  
+        <Techno></Techno>
+      </div>
+      <div className='duration-500' id='about'>
+        <Timeline></Timeline>
+      </div>
+      <div className='duration-500' id='projects'>
+        <Proyects></Proyects>
+      </div>
+      <div className='duration-500' id='contact'>
+        <Contact></Contact>
+      </div>
     </div>
   );
 }
