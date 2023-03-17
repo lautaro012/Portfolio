@@ -12,32 +12,36 @@ export default function Contact () {
                     <div className='button facebook'>
                         <i className="fab fa-facebook-f fa-2x"></i>
                     </div>
+                    <br></br>
                     <span className="pr-1 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        Facebook.com/
+                        Facebook
                     </span>
                 </div>
                 <div className='flex flex-row justify-evenly'>
                     <div className='button twitter'>
                         <i className="fab fa-twitter fa-2x"></i>
                     </div>
+                    <br></br>
                     <span className="pr-1 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        Twitter.com/
+                        Twitter
                     </span>
                 </div>
                 <div className='flex flex-row justify-evenly'>
                     <div className='button github'>
                         <i className="fab fa-github fa-2x"></i>
                     </div>
+                    <br></br>
                     <span className="pr-1 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        Github.com/Lautaro012
+                        Github
                     </span>
                 </div>
                 <div className='flex flex-row justify-evenly'>
                     <div className='button instagram'>
                         <i className="fab fa-instagram fa-2x"></i>
                     </div>
+                    <br></br>
                     <span className="pr-1 self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        Instagram.com/
+                        Instagram
                     </span>
                 </div>
 

@@ -97,7 +97,7 @@ export default function Techno () {
                 infinite={true}
                 arrows={false}
                 autoPlay={true}
-                transitionDuration={200}
+                transitionDuration={100}
                 className='Carouseltest'
                 responsive={responsive}
                 >
@@ -125,15 +125,15 @@ export default function Techno () {
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>
                         <span className='h-2'></span>
-                        <span className='h-1/4'>NodeJS</span></div>
+                        <span className='h-1/4'>NextJS</span></div>
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img  width={55} className='h-2/4' src={MongoIcon} alt='Mongo'></img>
                         <span className='h-2'></span>
-                        <span className='h-1/4'>MongoDB</span></div>
+                        <span className='h-1/4'>Django</span></div>
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img  width={55} className='h-2/4' src={MongoIcon} alt='Mongo'></img>
                         <span className='h-2'></span>
-                        <span className='h-1/4'>MongoDB</span></div>
+                        <span className='h-1/4'>React Native</span></div>
                 </div>
 
             </div>

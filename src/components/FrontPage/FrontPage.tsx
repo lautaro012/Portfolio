@@ -10,8 +10,8 @@ export default function Frontpage () {
     return (
         <div>
             <div className='string-conteiner h-screen flex flex-col justify-center'>
-                <h4> Hello, I'm </h4>
-                <h1 className="NAME">  ROBLES LAUTARO E. </h1>
+                <div className="flex flex-col h-1/2 justify-around">
+                    <h1 className="NAME">  ROBLES LAUTARO E. </h1>
                 <h2>
                     <Typewriter
                     words={[
@@ -27,9 +27,9 @@ export default function Frontpage () {
                 </h2>
                 <br></br>
                 <span> 
-                    I am a Full Stack Developer with experience in Front-End and Back-End application development.
-                    I've been a programming enthusiast since a was a child.  
+                    I am a Full Stack Developer with experience in Front-End and Back-End application development. 
                 </span>
+                </div>
             </div>
         </div>
     )
