@@ -6,6 +6,7 @@ import Navbar2 from './components/Navbar/Navbar2';
 import Contact from './components/Contact/Contact';
 import Techno from './components/Technologies/Technologies';
 import Timeline from './components/Timeline/Timeline';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <div className=' min-h-screen' id='contact'>
         <Contact></Contact>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
