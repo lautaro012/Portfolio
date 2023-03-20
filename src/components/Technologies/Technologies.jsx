@@ -32,21 +32,26 @@ const responsive = {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3
+      items: 2
     }
   };
 
 export default function Techno () {
 
     return (
-        <div className=" w-screen bg-gray-400">
-            <h1 className='p-12 flex justify-center'> Technologies </h1>
+        <div className=" w-screen">
+            <h2 className='p-12 flex justify-center'> Technologies </h2>
             <div>
-                <h2 className='p-8 flex justify-center'> Front-end </h2>
+                <h3 className='p-8 flex justify-center'> Front-end </h3>
                 <Carousel 
-                infinite={true}
+                infinite={false}
+                autoPlaySpeed={1000}
                 responsive={responsive}
+                slidesToSlide={1}                                                                                                                       
+                transitionDuration={100}
+                centerMode={true}
                 arrows={false}
+                rewind={true}
                 autoPlay={true}
                 className='Carouseltest'
                 >
@@ -92,14 +97,18 @@ export default function Techno () {
                 </Carousel>
             </div>
             <div>
-                <h2 className='p-8'> Back-end </h2>
+                <h3 className='p-8'> Back-end </h3>
                 <Carousel 
-                infinite={true}
-                arrows={false}
-                autoPlay={true}
-                transitionDuration={100}
-                className='Carouseltest'
-                responsive={responsive}
+               infinite={true}
+               autoPlaySpeed={2000}
+               responsive={responsive}
+               slidesToSlide={1}                                                                                                                       
+               transitionDuration={100}
+               centerMode={true}
+               arrows={false}
+               rewind={true}
+               autoPlay={true}
+               className='Carouseltest'
                 >
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>
@@ -120,7 +129,7 @@ export default function Techno () {
                 </Carousel>
             </div>
             <div>
-                <h2 className='p-8'> What im currently learning </h2>
+                <h3 className='p-8'> What im currently learning </h3>
                 <div className='flex flex-row'>
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>

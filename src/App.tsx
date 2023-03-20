@@ -14,19 +14,19 @@ function App() {
       <div>
         <Navbar2></Navbar2>
       </div>
-      <div className='duration-500 min-h-screen'  id='home'>
+      <div className=' min-h-screen'  id='home'>
         <Frontpage></Frontpage>
       </div>
-      <div className='duration-500 min-h-screen' id='technologies'>  
+      <div className=' min-h-screen' id='technologies'>  
         <Techno></Techno>
       </div>
-      <div className='duration-500 min-h-screen' id='about'>
+      <div className=' min-h-screen' id='about'>
         <Timeline></Timeline>
       </div>
-      <div className='duration-500 min-h-screen' id='projects'>
+      <div className=' min-h-screen' id='projects'>
         <Proyects></Proyects>
       </div>
-      <div className='duration-500 min-h-screen' id='contact'>
+      <div className=' min-h-screen' id='contact'>
         <Contact></Contact>
       </div>
     </div>

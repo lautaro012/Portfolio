@@ -11,7 +11,7 @@ export default function Frontpage () {
         <div>
             <div className='string-conteiner h-screen flex flex-col justify-center'>
                 <div className="flex flex-col h-1/2 justify-around">
-                    <h1 className="NAME">  ROBLES LAUTARO E. </h1>
+                    <h1 className="NAME">  ROBLES LAUTARO E. </h1  >
                 <h2>
                     <Typewriter
                     words={[

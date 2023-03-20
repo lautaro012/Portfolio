@@ -232,8 +232,8 @@ const proyects = [
 export default function Proyects () {
 
     return (
-        <div className="bg-background p-4 ">
-            <span><h1 className="duration-500 font-xl font-bold dark:text-white">My Projects</h1></span>
+        <div className=" p-4 ">
+            <span><h2 className="duration-500 font-xl font-bold dark:text-white">My Projects</h2></span>
            {
                 proyects.map(el => {
                     return (
