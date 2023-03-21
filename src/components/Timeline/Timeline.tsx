@@ -1,6 +1,6 @@
 import Reacticon from '../../Icons/React.png'
 
-export default function Timeline () {
+export default function Timeline (datalang:any) {
 
     return (
         <div className="m-8">
@@ -27,7 +27,7 @@ export default function Timeline () {
                 <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                     <img src={Reacticon} alt='react icon'></img>                
                 </span>
-                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white"> Fullstack Web Developer at Henry <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
+                <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white"> Fullstack Web Developer <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"> Graduated on Sept, 2022 </time>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400"> +700hs of coding at soyhenry.com bootcamp, specialized in MERN, Pair programming, Leadership and Teamwork </p>
             </li>

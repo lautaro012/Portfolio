@@ -9,14 +9,14 @@ export default function Footer () {
         <footer className='flex flex-col align-center'>
             <hr></hr>
             <div className='flex flex-row justify-center m-4'>
-                <img width={30}  src={Reacticon}></img>
+                <img width={15}  src={Reacticon}></img>
                 <br className='p-4'></br>
-                <img width={30}  src={Typescripticon}></img>
+                <img width={15}  src={Typescripticon}></img>
                 <br className='p-4'></br>
-                <img width={30}  src={TailwindIcon}></img>
+                <img width={15}  src={TailwindIcon}></img>
                 <br className='p-4'></br>
             </div>
-            <span className='mb-4'> © 2023 LauRob, Inc. All rights reserved.</span>
+            <span className='mb-4 text-sm'> © 2023 LauRob, Inc. All rights reserved.</span>
         </footer>
     )
 }

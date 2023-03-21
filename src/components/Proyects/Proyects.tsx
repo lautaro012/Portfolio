@@ -229,7 +229,7 @@ const proyects = [
     }
 ]
 
-export default function Proyects () {
+export default function Proyects (datalang:any) {
 
     return (
         <div className=" p-4 ">

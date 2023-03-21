@@ -36,7 +36,7 @@ const responsive = {
     }
   };
 
-export default function Techno () {
+export default function Techno (datalang) {
 
     return (
         <div className=" w-screen">

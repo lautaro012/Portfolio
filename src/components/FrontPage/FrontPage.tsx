@@ -5,7 +5,9 @@ import './Frontpage.css'
 
 
 
-export default function Frontpage () {
+export default function Frontpage (datalang:any) {
+
+    let language = localStorage.getItem('language')
 
     return (
         <div>
@@ -14,11 +16,13 @@ export default function Frontpage () {
                     <h1 className="NAME">  ROBLES LAUTARO E. </h1  >
                 <h2>
                     <Typewriter
-                    words={[
-                    "Front End Developer",
-                    "Back End Developer",
-                    "Technical Engineer"
-                    ]}
+                    words=
+                        {
+                        language === 'en' ?
+                            datalang.datalang.en.frontpage.typewriter
+                        :
+                            datalang.datalang.es.frontpage.typewriter
+                        }
                     typeSpeed={50}
                     delaySpeed={1100}
                     deleteSpeed={25}
@@ -26,8 +30,13 @@ export default function Frontpage () {
                     />
                 </h2>
                 <br></br>
-                <span> 
-                    I am a Full Stack Developer with experience in Front-End and Back-End application development. 
+                <span>
+                    {
+                        language === 'en' ?
+                            datalang.datalang.en.frontpage.span
+                        :
+                        datalang.datalang.es.frontpage.span
+                    }
                 </span>
                 </div>
             </div>
