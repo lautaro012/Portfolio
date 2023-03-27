@@ -38,9 +38,11 @@ const responsive = {
 
 export default function Techno (datalang) {
 
+    let language = localStorage.getItem('language')
+
     return (
         <div className=" w-screen">
-            <h2 className='p-12 flex justify-center'> Technologies </h2>
+            <h2 className='p-12 flex justify-center'> {language === 'en' ? datalang.datalang.en.technologies.title : datalang.datalang.es.technologies.title} </h2>
             <div>
                 <h3 className='p-8 flex justify-center'> Front-end </h3>
                 <Carousel 

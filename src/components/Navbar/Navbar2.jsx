@@ -1,14 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {Link} from 'react-scroll'
 import "./Navbar.css";
 
-export default function Navbar2 (datalang:any){
-
-
+export default function Navbar2 ({datalang, rendertest}){
+    
+    
+    const [language, setLanguage] = useState(localStorage.getItem('language'))
     const [openNavbar, setOpenNavbar] = useState(false);
     const [openLanguage, setOpenLanguage] = useState(false);
-    const [render, setRender] = useState(false)
   
+    useEffect(() => {
+       // console.log('render...')
+    },[language])
+
+
     const confirmToggle = () => {
       localStorage.theme = "dark" ? handleTheme : null
     }
@@ -34,18 +39,17 @@ export default function Navbar2 (datalang:any){
       else {
           localStorage.theme = "light"
       }
-      render ? setRender(false) : setRender(true)
     }
 
-    const Changelanguage = (e:any, name:string) => {
+    const Changelanguage = (e, name) => {
         e.preventDefault()
         localStorage.setItem('language', name)
-        render ? setRender(false) : setRender(true)
+        setLanguage(name)
+        rendertest(name)
     }
   
     confirmToggle()
 
-    let language = localStorage.getItem('language')
     
     return (
         <nav className="bg-white w-screen duration-500 fixed z-10 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
@@ -58,7 +62,7 @@ export default function Navbar2 (datalang:any){
             </div>
                 <a href="https://flowbite.com/" className="flex items-center">
                     <img src="https://servicio.us.es/empleovirtualus/wp-content/uploads/2015/12/02.png" className="h-6 mr-0 sm:h-9" alt="Flowbite Logo" />
-                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Robles Lautaro</span>
+                    <span className="self-center text-base font-semibold whitespace-nowrap dark:text-white">Robles Lautaro</span>
                 </a>
                 <div className="flex items-center md:order-2">
                     <button type="button" onClick={handleLanguage} data-dropdown-toggle="language-dropdown-menu" className="inline-flex items-center justify-center px-2 py-2 text-sm text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
