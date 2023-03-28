@@ -40,196 +40,183 @@ export interface ProyectProp {
    description:string
 }
 
-const proyects = [
-    { 
-        name:"Henry's Restaurant",
-        title: "The Webpage of your favorite Restaurant:",
-        description: [
-            "🍔 Check and Download the Catalogue",
-            "🍔 Find your favorite meal and add it to the Cart (You can make suggestions ex: no pickles )",
-            "🍔 Administrate your orders, users, food and Delivery mans as Administrator",
-            "🍔 Track your orders and recieve new ones as Delivery",
-            "🍔 Check where is your order as User whit the GoogleMaps API integrated"
-        ],
-        images: [
-            FrontLight,
-            Cart,
-            Contact,
-            FrontDark,
-            Map,
-            Order,
-            Product
-        ],
-        technologies: [
-            {
-                img:Reacticon,
-                name:'React'
-            },
-            {
-                img:Typescripticon,
-                name:'Typescript'
-            }
-            ,
-            {
-                img:Cssicon,
-                name:'CSS Modules'
-            },
-            {
-                img:Reduxicon,
-                name:'Redux'
-            }
-            ,
-            {
-                img:MongoIcon,
-                name:'MongoDB'
-            },
-            {
-                img:NodeIcon,
-                name:'NodeJS'
-            }
-        ]
-    } ,
-    {
-        name:"Henry's Game Store",
-        title: "E-commerce of Digital Videogames:",
-        description: [
-            "💻Find your favorites videogames", 
-            "💻 Add them to the Cart",
-            "💻 Buy them (Stripe)", 
-            "💻 Administrate the users whit your admin account"
-        ],
-        images: [
-            Games,
-            GameDetail2,
-            GameDetail,
-            loading
-        ], technologies: [
-            {
-                img:Reacticon,
-                name:'React'
-            },
-            {
-                img:JsIcon,
-                name:'Javascript'
-            },
-            {
-                img:Cssicon,
-                name:'CSS Modules'
-            },
-            {
-                img:Reduxicon,
-                name:'Redux'
-            }
-            ,
-            {
-                img:NodeIcon,
-                name:'NodeJS'
-            }
-            ,
-            {
-                img:PostgressIcon,
-                name:'Postgresql'
-            }
-            ,
-        ]
-    },
-    {
-        name:"Let's Cook!",
-        title:"You don't know what to cook??",
-        description : [
-            "📌Search by differents diets",
-            "📌Order by name/rate",
-            "📌Create and Edit your own Recipes"
-        ],
-        images: [
-            landingcook,
-            createrecipe,
-            detailrecipe,
-            filterrecipe,
-            homerecipe,
-        ],
-        technologies: [
-            {
-                img:Reacticon,
-                name:'React'
-            },
-            {
-                img:JsIcon,
-                name:'Javascript'
-            },
-            {
-                img:Cssicon,
-                name:'CSS Modules'
-            },
-            {
-                img:NodeIcon,
-                name:'NodeJS'
-            },
-            {
-                img:PostgressIcon,
-                name:'Postgresql'
-            }
-        ]
-    },
-    {
-        name:"Pokedex",
-        title: "List of Pokemons",
-        description: [
-            "📌 Create your own pokemon whit his stats",
-            "📌 Edit any Pokemon on the list",
-            "📌 Search any pokemon by his name or ID"
-        ],
-        images: [
-            Landingpokedex,
-            edit,
-            newpokemon
-        ],
-        technologies: [
-            {
-                img:Typescripticon,
-                name:'Typescript'
-            }
-            ,
-            {
-                img:Reacticon,
-                name:'React'
-            },
-            {
-                img:Cssicon,
-                name:'CSS Modules'
-            },
-            {
-                img:Reduxicon,
-                name:'Redux'
-            }
-            ,
-        ]
-    },
-    {
-        name:"React Crush-",
-        description: [" A 'Candy Crush' game developed only whit React and Javascript Logic"],
-        images: [
-            reactCrush,
-            reactFinish
-        ],
-        technologies: [
-            {
-                img:Reacticon,
-                name:'React'
-            },
-            {
-                img:JsIcon,
-                name:'Javascript'
-            },
-            {
-                img:Cssicon,
-                name:'CSS Modules'
-            },
-        ]
-    }
-]
 
 export default function Proyects (datalang:any) {
+
+    let language = localStorage.getItem('language')
+    let data = language === 'en' ? datalang.datalang.en : datalang.datalang.es
+    
+    console.log(data, 'datalang proyects')
+    const proyects = [
+        { 
+            name: `${data.projects.resto.name}`,
+            title: "The Webpage of your favorite Restaurant:",
+            description: data.projects.resto.description,
+            images: [
+                FrontLight,
+                Cart,
+                Contact,
+                FrontDark,
+                Map,
+                Order,
+                Product
+            ],
+            technologies: [
+                {
+                    img:Reacticon,
+                    name:'React'
+                },
+                {
+                    img:Typescripticon,
+                    name:'Typescript'
+                }
+                ,
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+                {
+                    img:Reduxicon,
+                    name:'Redux'
+                }
+                ,
+                {
+                    img:MongoIcon,
+                    name:'MongoDB'
+                },
+                {
+                    img:NodeIcon,
+                    name:'NodeJS'
+                }
+            ]
+        } ,
+        {
+            name: `${data.projects.gamestore.name}`,
+            title: "E-commerce of Digital Videogames:",
+            description: data.projects.gamestore?.description,
+            images: [
+                Games,
+                GameDetail2,
+                GameDetail,
+                loading
+            ], technologies: [
+                {
+                    img:Reacticon,
+                    name:'React'
+                },
+                {
+                    img:JsIcon,
+                    name:'Javascript'
+                },
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+                {
+                    img:Reduxicon,
+                    name:'Redux'
+                }
+                ,
+                {
+                    img:NodeIcon,
+                    name:'NodeJS'
+                }
+                ,
+                {
+                    img:PostgressIcon,
+                    name:'Postgresql'
+                }
+                ,
+            ]
+        },
+        {
+            name:`${data.projects.letscook.name}`,
+            title:"You don't know what to cook??",
+            description : data?.projects.letscook?.description,
+            images: [
+                landingcook,
+                createrecipe,
+                detailrecipe,
+                filterrecipe,
+                homerecipe,
+            ],
+            technologies: [
+                {
+                    img:Reacticon,
+                    name:'React'
+                },
+                {
+                    img:JsIcon,
+                    name:'Javascript'
+                },
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+                {
+                    img:NodeIcon,
+                    name:'NodeJS'
+                },
+                {
+                    img:PostgressIcon,
+                    name:'Postgresql'
+                }
+            ]
+        },
+        {
+            name: `${data.projects.pokedex.name}`,
+            title: "List of Pokemons",
+            description: data.projects.pokedex.description,
+            images: [
+                Landingpokedex,
+                edit,
+                newpokemon
+            ],
+            technologies: [
+                {
+                    img:Typescripticon,
+                    name:'Typescript'
+                }
+                ,
+                {
+                    img:Reacticon,
+                    name:'React'
+                },
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+                {
+                    img:Reduxicon,
+                    name:'Redux'
+                }
+                ,
+            ]
+        },
+        {
+            name:`${data.projects.reactcrush.name}`,
+            description: data.projects.reactcrush.description,
+            images: [
+                reactCrush,
+                reactFinish
+            ],
+            technologies: [
+                {
+                    img:Reacticon,
+                    name:'React'
+                },
+                {
+                    img:JsIcon,
+                    name:'Javascript'
+                },
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+            ]
+        }
+    ]
+
 
     return (
         <div className=" p-4 ">

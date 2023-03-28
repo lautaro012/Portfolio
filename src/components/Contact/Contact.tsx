@@ -5,12 +5,14 @@ import Form from './Form.jsx'
 
 export default function Contact (datalang:any) {
 
+    let language = localStorage.getItem('language')
 
+    let data = language === 'en' ? datalang.datalang.en : datalang.datalang.es
 
     return (
         <div>
             <div className='p-4 m-4 flex flex-col bg-gray-100 dark:bg-gray-500'>
-                <span> Find me here:  </span>
+                <span> {data.contact.findme}  </span>
                 <div className='flex flex-row justify-evenly '>
                     <div className='button facebook'>
                         <i className="fab fa-facebook-f fa-2x"></i>
@@ -52,8 +54,8 @@ export default function Contact (datalang:any) {
 
 
             <div className='m-8'>
-                <h2 className='mt-12 mb-12'> Let's work together: </h2>
-               <Form></Form>
+                <h2 className='mt-12 mb-12'>{data.contact.letswork}</h2>
+               <Form datalang={data.contact.form}></Form>
             </div>
             {/*
             <div className='buttons-container'>

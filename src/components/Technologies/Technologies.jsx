@@ -135,7 +135,7 @@ export default function Techno (datalang) {
                 </Carousel>
             </div>
             <div>
-                <h3 className='p-8'> What im currently learning </h3>
+                <h3 className='p-8'> {language === 'en' ? datalang.datalang.en.technologies.learning : datalang.datalang.es.technologies.learning} </h3>
                 <div className='flex flex-row'>
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>
