@@ -14,6 +14,7 @@ import TailwindIcon from '../../Icons/Tailwind.png'
 import BootstrapIcon from '../../Icons/Bootstrap.png'
 import './Technologies.css'
 
+
 import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
@@ -36,14 +37,17 @@ const responsive = {
     }
   };
 
+
 export default function Techno (datalang) {
 
     let language = localStorage.getItem('language')
 
+  
+
     return (
         <div className=" w-screen">
             <h2 className='p-12 flex justify-center'> {language === 'en' ? datalang.datalang.en.technologies.title : datalang.datalang.es.technologies.title} </h2>
-            <div>
+            <div className='m-4'>
                 <h3 className='p-8 flex justify-center'> Front-end </h3>
                 <Carousel 
                 infinite={false}
