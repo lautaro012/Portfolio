@@ -1,6 +1,7 @@
 import Reacticon from '../../Icons/React.png'
 import Typescripticon from '../../Icons/Typescript.png'
 import TailwindIcon from '../../Icons/Tailwind.png'
+import './Footer.css'
 
 export default function Footer () {
 
@@ -9,11 +10,11 @@ export default function Footer () {
         <footer className='flex flex-col align-center'>
             <hr></hr>
             <div className='flex flex-row justify-center m-4'>
-                <img width={15}  src={Reacticon}></img>
+                <img className='footer-img' width={25}  src={Reacticon}></img>
                 <br className='p-4'></br>
-                <img width={15}  src={Typescripticon}></img>
+                <img className='footer-img' width={25}  src={Typescripticon}></img>
                 <br className='p-4'></br>
-                <img width={15}  src={TailwindIcon}></img>
+                <img width={25} className='footer-img' src={TailwindIcon}></img>
                 <br className='p-4'></br>
             </div>
             <span className='mb-4 text-sm'> © 2023 LauRob, Inc. All rights reserved.</span>

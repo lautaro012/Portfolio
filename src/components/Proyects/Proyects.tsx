@@ -71,10 +71,10 @@ export default function Proyects (datalang:any) {
                     name:'Typescript'
                 }
                 ,
-                {
+                /*
                     img:Cssicon,
                     name:'CSS Modules'
-                },
+            */
                 {
                     img:Reduxicon,
                     name:'Redux'
@@ -107,11 +107,11 @@ export default function Proyects (datalang:any) {
                 {
                     img:JsIcon,
                     name:'Javascript'
-                },
-                {
+                }
+                /*
                     img:Cssicon,
                     name:'CSS Modules'
-                },
+            */,
                 {
                     img:Reduxicon,
                     name:'Redux'

@@ -31,7 +31,6 @@
                 "name":"El Restaurante de Henry",
                 "description": [
                     "🍔 Chequea y descarga nuestro catalogo",
-                    "🍔 Encontra tu comida favorita y agregala al carrito (puedes hacer sugerencias ej: sin ketchup )",
                     "🍔 Maneja tus ordenes, usuarios, comidas y deliverys como Administrador",
                     "🍔 Segui tus ordenes y recibi nuevas como un Delivery",
                     "🍔 Segui tu orden como usuario con la implementacion de la API de Google Maps"
@@ -125,7 +124,6 @@
                 "name":"Henry's Restaurant",
                 "description": [
                     "🍔 Check and Download the Catalogue",
-                    "🍔 Find your favorite meal and add it to the Cart (You can make suggestions ex: no pickles )",
                     "🍔 Administrate your orders, users, food and Delivery mans as Administrator",
                     "🍔 Track your orders and recieve new ones as Delivery",
                     "🍔 Check where is your order as User whit the GoogleMaps API integrated"
