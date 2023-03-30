@@ -56,7 +56,7 @@ export default function Techno (datalang) {
                 <h3 className='p-8 flex justify-center'> Front-end </h3>
                 
                 <Carousel
-                partialVisbile={true}
+                partialVisibile={true}
                 ssr={true}
                 infinite={false}
                 transitionDuration={500}
@@ -110,19 +110,20 @@ export default function Techno (datalang) {
                 </Carousel>
 
             </div>
-            <div>
+            <div className='m-4' >
                 <h3 className='p-8'> Back-end </h3>
                 <Carousel 
                infinite={true}
                ssr={true}
                autoPlaySpeed={2000}
                responsive={responsive}
+               partialVisible={true}
                slidesToSlide={1}                                                                                                                       
                transitionDuration={100}
                arrows={false}
                rewind={true}
                autoPlay={true}
-               className='Carouseltest'
+               className=''
                 >
                     <div className='flex justify-center divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                         <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>

@@ -53,8 +53,8 @@ export default function Contact (datalang:any) {
             </div>
 
 
-            <div className='m-8'>
-                <h2 className='mt-12 mb-12'>{data.contact.letswork}</h2>
+            <div className='m-4'>
+                <h2 className='mt-8 mb-8'>{data.contact.letswork}</h2>
                <Form datalang={data.contact.form}></Form>
             </div>
             {/*

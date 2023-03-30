@@ -224,7 +224,7 @@ export default function Proyects (datalang:any) {
            {
                 proyects.map(el => {
                     return (
-                        <Card key={el.name} el={el}></Card>
+                        <Card data={data.projects.card} key={el.name} el={el}></Card>
                     )
                 })
            }
