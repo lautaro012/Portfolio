@@ -16,7 +16,7 @@ function App() {
  var datalang:any = Data
  const [setLanguage, useSetLanguage] = useState(localStorage.getItem("language"))
  const [render, setRender] = useState(false)
- const [dataLanguage, setDataLanguage] = useState(Data.en)
+ const [dataLanguage, setDataLanguage] = useState({})
 
 
   useEffect(() => {
@@ -37,12 +37,12 @@ function App() {
 
 
   return (
-    <div className="App dark:bg-gray-400">
-      <div>
+    <div className="App dark:bg-gray-400 md:pr-60 md:pl-60 md:justify-center">
+      <div className='flex justify-center'>
         <Navbar2 datalang={datalang} rendertest={rendertest} ></Navbar2>
       </div>
       <div className=' min-h-screen'  id='home'>
-        <Frontpage dataLanguage={dataLanguage} ></Frontpage>
+        <Frontpage dataLanguage={datalang} ></Frontpage>
       </div>
       <div className=' min-h-screen' id='technologies'>  
         <Techno datalang={datalang}></Techno>

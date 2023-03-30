@@ -19,15 +19,34 @@
   font-size: 11px;
 }
 
+@media (max-width: 750px) {
+  .active {
+   display: flex;
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 86 219 / var(--tw-bg-opacity));  border-radius: 0.25rem;
+    --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-decoration: inherit;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+  }
+}
+@media(min-width: 750px) {
+  .active {
+    height: 3px;
+  }
+}
+
 .active {
- display: flex;
+  display: flex;
   --tw-bg-opacity: 1;
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));  border-radius: 0.25rem;
   --tw-text-opacity: 1;
-color: rgb(255 255 255 / var(--tw-text-opacity));
-text-decoration: inherit;
-text-align: center;
-justify-content: center;
+  color: black;
+  text-decoration: inherit;
+  text-align: center;
+  justify-content: center;
 }
 
 .navbar {

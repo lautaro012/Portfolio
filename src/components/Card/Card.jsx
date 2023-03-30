@@ -31,7 +31,7 @@ export default function Card ({data, el}) {
                                     
                                     return (
                                     <div>
-                                        <img  onClick={handleClick} className=' image-proyect-hover m-1 p-4 rounded-lg h-content' src={img} alt='asd'></img>
+                                        <img  onClick={handleClick} className='max-w-20 image-proyect-hover m-1 p-4 rounded-lg h-content' src={img} alt='asd'></img>
                                     </div>
                                     )    
                             })

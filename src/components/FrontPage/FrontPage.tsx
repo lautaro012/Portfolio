@@ -9,9 +9,9 @@ export default function Frontpage ({dataLanguage}:any) {
 
 
     const [language, setLanguage] = useState(localStorage.getItem('language'))
-
+    let lang = localStorage.getItem('language')
     let Data = dataLanguage
-
+    console.log(Data)
     return (
         <div>
             <div className='string-conteiner h-screen flex flex-col justify-center'>
@@ -21,10 +21,10 @@ export default function Frontpage ({dataLanguage}:any) {
                     <Typewriter
                     words=
                         {
-                        language === 'en' ?
-                            Data.frontpage.typewriter
+                            lang === 'en' ?
+                            Data.en.frontpage.typewriter
                         :
-                            Data.frontpage.typewriter
+                            Data.es.frontpage.typewriter
                         }
                     typeSpeed={50}
                     delaySpeed={1100}
@@ -35,10 +35,10 @@ export default function Frontpage ({dataLanguage}:any) {
                 <br></br>
                 <span>
                     {
-                        language === 'en' ?
-                        dataLanguage.frontpage.span
+                        lang === 'en' ?
+                        dataLanguage.en.frontpage.span
                         :
-                        dataLanguage.frontpage.span
+                        dataLanguage.es.frontpage.span
                     }
                 </span>
                 </div>
