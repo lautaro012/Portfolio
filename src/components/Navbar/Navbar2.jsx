@@ -52,7 +52,7 @@ export default function Navbar2 ({datalang, rendertest}){
 
     
     return (
-        <nav className="bg-white w-screen duration-500 fixed z-10 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <nav className="bg-white w-full duration-500 fixed z-10 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
             <div className=" flex flex-wrap items-center justify-around mx-auto">
             <div className="flex fixed right-4 bottom-10 items-center md:order-2">
                 <label className="toggle">

@@ -221,7 +221,7 @@ export default function Proyects (datalang:any) {
     return (
         <div className=" p-4 ">
             <span><h2 className="duration-500 font-xl font-bold dark:text-white">My Projects</h2></span>
-            <div className="md:max-w-screen md:flex md:flex-wrap">
+            <div className="md:max-w-full md:flex md:flex-wrap">
             {
                     proyects.map(el => {
                         return (

@@ -37,8 +37,8 @@ function App() {
 
 
   return (
-    <div className="App dark:bg-gray-400 md:pr-60 md:pl-60 md:justify-center">
-      <div className='flex justify-center'>
+    <div className="App dark:bg-gray-400 ">
+      <div >
         <Navbar2 datalang={datalang} rendertest={rendertest} ></Navbar2>
       </div>
       <div className=' min-h-screen'  id='home'>
