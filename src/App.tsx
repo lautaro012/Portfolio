@@ -53,7 +53,7 @@ function App() {
       <div className='ml-4 mr-4 lg:ml-40 lg:mr-40 min-h-screen' id='projects'>
         <Proyects datalang={datalang}></Proyects>
       </div>
-      <div className='ml-4 mr-4 min-h-screen lg:ml-40 lg:mr-40' id='contact'>
+      <div className='ml-4 mr-4 min-h-screen lg:ml-40 lg:mr-40 lg:mt-40' id='contact'>
         <Contact datalang={datalang}></Contact>
       </div>
       <Footer></Footer>

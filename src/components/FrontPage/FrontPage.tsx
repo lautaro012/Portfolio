@@ -14,9 +14,9 @@ export default function Frontpage ({dataLanguage}:any) {
     console.log(Data)
     return (
         <div>
-            <div className='string-conteiner h-screen flex flex-col justify-center'>
-                <div className="flex flex-col h-1/2 justify-around">
-                    <h1 className="NAME">  ROBLES LAUTARO </h1>
+            <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center lg:pt-16'>
+                <div className="flex flex-col justify-center">
+                    <h1 className="NAME lg:mb-12">  ROBLES LAUTARO </h1>
                 <h2>
                     <Typewriter
                     words=
@@ -32,8 +32,7 @@ export default function Frontpage ({dataLanguage}:any) {
                     loop
                     />
                 </h2>
-                <br></br>
-                <span>
+                <span className="lg:mt-20">
                     {
                         lang === 'en' ?
                         dataLanguage.en.frontpage.span
@@ -42,10 +41,8 @@ export default function Frontpage ({dataLanguage}:any) {
                     }
                 </span>
                 </div>
-            {/*
-            <img width={500} src={photo} alt='asdfsadfdsaf'></img>
-            
-                */}  
+    
+            <img width={500} className='w-0 lg:w-auto' src={photo} alt='asdfsadfdsaf'></img>
                 
             </div>
         </div>

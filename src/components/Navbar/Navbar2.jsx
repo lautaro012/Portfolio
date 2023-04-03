@@ -60,7 +60,7 @@ export default function Navbar2 ({datalang, rendertest}){
                     </label>
                 </div>
                 <div className="flex">
-                        <img src="https://servicio.us.es/empleovirtualus/wp-content/uploads/2015/12/02.png" className="h-6 mr-0 sm:h-9" alt="Flowbite Logo" />
+                        <img src="https://servicio.us.es/empleovirtualus/wp-content/uploads/2015/12/02.png" width={32} className="h-6 mr-0 sm:h-9 sm:w-auto" alt="Flowbite Logo" />
                         <span className="self-center text-base font-semibold whitespace-nowrap dark:text-white">Robles Lautaro</span>
                 </div>
                 <div className="flex items-center md:order-2">
@@ -111,14 +111,14 @@ export default function Navbar2 ({datalang, rendertest}){
                                         <path fill="#FF0000" d="M0 0h512v170.7H0z"></path>
                                         <path fill="#ffff00" d="M0 170.7h512v170.6H0z"></path>
                                         </svg>
-                                        Español (ES)
+                                        Español(ES)
                                     </div>
                                     </a>
                                 </button>
                             </li>
                         </ul>
                     </div>
-                    <button data-collapse-toggle="mobile-menu-language-select" onClick={handleOpen} type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover/:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover/:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-language-select" aria-expanded="false">
+                    <button data-collapse-toggle="mobile-menu-language-select" onClick={handleOpen} type="button" className="inline-flex items-center  ml-1 text-sm text-gray-500 rounded-lg md:hidden hover/:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover/:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-language-select" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-6 h-6" fill="currentColor" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                     </button>

@@ -3,9 +3,7 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,8 +17,8 @@ h1 {
   font-size: 3rem;
 color: black;
 font-weight: bolder;
-font-style: italic;
 
+font-family: Helvetica;
 }
 
 h2 {

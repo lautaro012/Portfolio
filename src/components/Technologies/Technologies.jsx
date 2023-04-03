@@ -13,6 +13,9 @@ import SequelizeIcon from '../../Icons/Sequelize.png'
 import TailwindIcon from '../../Icons/Tailwind.png'
 import {  Fade } from "react-awesome-reveal";
 import BootstrapIcon from '../../Icons/Bootstrap.png'
+import ReactnativeIcon from '../../Icons/react-native.png'
+import NextJSIcon from '../../Icons/nextjs.svg'
+import DjangoIcon from '../../Icons/django.svg'
 import './Technologies.css'
 
 
@@ -155,21 +158,21 @@ export default function Techno (datalang) {
                 <div className='flex flex-col md:flex-row items-center'>
                     <Fade  cascade duration={3000} damping={1}>
                         <div className='flex justify-center w-32 md:w-32 divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
-                            <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>
+                            <img width={55} className='h-2/4' src={NextJSIcon} alt='Node'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>NextJS</span>
                         </div>
                     </Fade>
                    <Fade cascade duration={3000} damping={1}>
                         <div className='flex justify-center divcard w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
-                            <img  width={55} className='h-2/4' src={MongoIcon} alt='Mongo'></img>
+                            <img  width={55} className='h-2/4' src={DjangoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>Django</span>
                         </div>
                    </Fade>
                    <Fade cascade duration={3000} damping={1}>
                         <div className='flex justify-center divcard flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
-                            <img  width={55} className='h-2/4' src={MongoIcon} alt='Mongo'></img>
+                            <img  width={55} className='h-2/4' src={ReactnativeIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>React Native</span>
                         </div>
