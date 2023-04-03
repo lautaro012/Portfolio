@@ -48,7 +48,7 @@ export default function Contact (datalang:any) {
                     </div>
                     <br></br>
                     <span className="pr-1 self-center text-sm font-semibold whitespace-nowrap dark:text-white">
-                        Lautaro0121@gmail.com
+                        Lautaro0121@gmail
                     </span>
                 </div>
             </div>

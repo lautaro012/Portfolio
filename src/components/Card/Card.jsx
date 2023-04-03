@@ -15,7 +15,10 @@ export default function Card ({data, el}) {
     return (
         <div className='conteiner-card'>
                 <div className={!open ? "element-card" : "element-card open"}>
-                    <div onClick={handleClick} className="front-facing">
+                    <div onClick={handleClick} className="front-facing flex flex-col justify-center items-center">
+                        
+                        <span>{el.name}</span>
+                        
                         <Carousel
                         autoPlay={true}
                         interval={2000}
@@ -40,7 +43,9 @@ export default function Card ({data, el}) {
                                 <img   className=' image-proyect-hover m-1 p-4 rounded-lg h-content' src={el.images[0]} alt='asd'></img>
                             </div>
                         </Carousel>
-                    <span>{el.name}</span>
+
+                        <span className='text-sm'>{el.title}</span>   
+
                     <div className='flex justify-evenly p-2'>
                         {
                             el.technologies.map((icon) => {
@@ -62,21 +67,41 @@ export default function Card ({data, el}) {
                     </button>  
                     </div>
                 <div onClick={handleClick} className="back-facing">
+
+
                     <div className='flex flex-col'>
-                        <span className='text-lg font-bold'>{el.title}</span>   
+
+                        <span className='text-lg font-bold'> Features:</span>   
+                        
                         {el.description.map(words => {
                         return <span className='text-sm font-medium' >{words}</span>
                         })}
+                        
+                        <span className='text-lg font-bold'> Challenge Presented:</span>   
+
+                        <span className='text-sm font-medium'>"🍔 Check where is your order as User whit the GoogleMaps API integrated"</span>
+
                     </div>
 
+
                     <div className='flex pt-4 flex-row w-full justify-around'>
-                        <div className='button github'>
-                            <i className="fab fa-github fa-2x"></i>
+
+                        <div className='flex flex-col'>
+                            <span>Github:</span>
+                            <div className='button github'>
+                                <i className="fab fa-github fa-2x"></i>
+                            </div>
                         </div>
-                        <div className='button reddit'>
-                            <i className="fa-solid fa-window-maximize fa-2x"></i>
+
+                        <div className='flex flex-col'>
+                            <span>Deploy:</span>
+                            <div className='button reddit'>
+                                <i className="fa-solid fa-window-maximize fa-2x"></i>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
                 </div>
         </div>

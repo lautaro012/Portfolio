@@ -246,7 +246,7 @@ h2 span {
 .element-card {
 	position: relative;
 	width: 100%;
-	height: 20rem;
+	height: 22rem;
 	transform-style: preserve-3d;
 	transform: rotatey(0deg) translatex(0px) translatey(0px);
 	transition: all 0.6s cubic-bezier(0.680, -0.550, 0.265, 1.550);
@@ -263,8 +263,8 @@ h2 span {
     width: 75%;
   }
   .element-card{
-    width: 75%;
-    height: 25rem;
+    width: 70%;
+    height: 26rem;
   }
 }
 .element-card:hover {
@@ -273,7 +273,7 @@ h2 span {
 
 .element-card.open {
 		width: 100%rem;
-		height: 27rem;
+		height: 30rem;
 		transform: rotatey(-180deg) translatex(0px) translatey(0px);
 }
 	
@@ -367,5 +367,5 @@ h2 span {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-bottom: 2rem;
 }
