@@ -152,23 +152,23 @@ export default function Techno (datalang) {
             </div>
             <div className='md:flex md:flex-col items-center'>
                 <h3 className='p-8'> {language === 'en' ? datalang.datalang.en.technologies.learning : datalang.datalang.es.technologies.learning} </h3>
-                <div className='flex flex-row max-w-full-sm'>
+                <div className='flex flex-col md:flex-row items-center'>
                     <Fade  cascade duration={3000} damping={1}>
-                        <div className='flex justify-center sm:w-20 md:w-32 divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center w-32 md:w-32 divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img width={55} className='h-2/4' src={NodeIcon} alt='Node'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>NextJS</span>
                         </div>
                     </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center divcard sm:w-20 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center divcard w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img  width={55} className='h-2/4' src={MongoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>Django</span>
                         </div>
                    </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center divcard flex-col sm:w-20 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center divcard flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img  width={55} className='h-2/4' src={MongoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>React Native</span>

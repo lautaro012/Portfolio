@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react"
 import { Typewriter } from "react-simple-typewriter"
 import './Frontpage.css'
-
+import photo from '../../Images/home-main.svg'
 
 
 export default function Frontpage ({dataLanguage}:any) {
@@ -42,6 +42,11 @@ export default function Frontpage ({dataLanguage}:any) {
                     }
                 </span>
                 </div>
+            {/*
+            <img width={500} src={photo} alt='asdfsadfdsaf'></img>
+            
+                */}  
+                
             </div>
         </div>
     )
