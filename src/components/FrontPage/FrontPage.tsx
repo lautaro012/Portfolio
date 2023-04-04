@@ -11,7 +11,6 @@ export default function Frontpage ({dataLanguage}:any) {
     const [language, setLanguage] = useState(localStorage.getItem('language'))
     let lang = localStorage.getItem('language')
     let Data = dataLanguage
-    console.log(Data)
     return (
         <div>
             <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center lg:pt-16'>

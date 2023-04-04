@@ -124,7 +124,7 @@ export default function Techno (datalang) {
                     <Carousel 
                 infinite={true}
                 ssr={true}
-                autoPlaySpeed={2000}
+                autoPlaySpeed={1000}
                 responsive={responsive}
                 partialVisible={true}
                 slidesToSlide={1}                                                                                                                       
