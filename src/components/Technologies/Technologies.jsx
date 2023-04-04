@@ -29,13 +29,13 @@ const responsive = {
       items: 3
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1250 },
-      items: 3,
+      breakpoint: { max: 1400, min: 1024 },
+      items: 2,
       partialVisibilityGutter:0
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3,
+      items: 2,
       partialVisibilityGutter: 0
     },
     mobile: {
@@ -157,21 +157,21 @@ export default function Techno (datalang) {
                 <h3 className='p-8'> {language === 'en' ? datalang.datalang.en.technologies.learning : datalang.datalang.es.technologies.learning} </h3>
                 <div className='flex flex-col md:flex-row items-center'>
                     <Fade  cascade duration={3000} damping={1}>
-                        <div className='flex justify-center w-32 md:w-32 divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center lg:m-4 w-32 md:w-32 divcard flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img width={55} className='h-2/4' src={NextJSIcon} alt='Node'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>NextJS</span>
                         </div>
                     </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center divcard w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center lg:m-4 divcard w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img  width={55} className='h-2/4' src={DjangoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>Django</span>
                         </div>
                    </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center divcard flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center lg:m-4 divcard flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img  width={55} className='h-2/4' src={ReactnativeIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4 text-sm' >React Native</span>

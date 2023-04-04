@@ -144,8 +144,8 @@ export default function Navbar2 ({datalang, rendertest}){
                                 duration={1000}
                                 offset={-150}
                             >
-                                <button href="#" onClick={closeNavbar} 
-                                className="  block py-2 pl-3 pr-4 rounded hover/:/bg-gray-100 md:hover/:/bg-transparent md:hover/:/text-blue-700 md:p-0 dark:text-gray-400 //md:dark:/hover/:text-white// //dark:hover/:/bg-gray-700// dark:hover//:text-white md:dark:hover/:bg-transparent dark:border-gray-700"
+                                <button onClick={closeNavbar} 
+                                className=" w-full block py-2 pl-3 pr-4 rounded hover/:/bg-gray-100 md:hover/:/bg-transparent md:hover/:/text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:hover:bg-transparent dark:border-gray-700"
                                 aria-current="page">Home</button>
                             </Link>
                         </li>
@@ -160,8 +160,8 @@ export default function Navbar2 ({datalang, rendertest}){
                                 offset={-150}
                             >
                                 <button href="#" onClick={closeNavbar}
-                                className="  block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400
-                                 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover/:bg-transparent dark:border-gray-700" >
+                                className=" w-full block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400
+                                 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover:bg-transparent dark:border-gray-700" >
                                 {data.navbar.technologies}</button>
                             </Link>
                         </li>
@@ -176,7 +176,7 @@ export default function Navbar2 ({datalang, rendertest}){
                                 offset={-150}
                             >
                                 <button href="#" onClick={closeNavbar} 
-                                className=" block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover/:bg-transparent dark:border-gray-700"
+                                className=" w-full block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                                 >
                                 {data.navbar.about}</button>
                             </Link>
@@ -191,7 +191,7 @@ export default function Navbar2 ({datalang, rendertest}){
                                 duration={1000}
                                 offset={-150}
                             >
-                                <button onClick={closeNavbar} className="  block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover/:bg-transparent dark:border-gray-700">{data.navbar.projects}</button>
+                                <button onClick={closeNavbar} className=" w-full block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover:bg-transparent dark:border-gray-700">{data.navbar.projects}</button>
                             </Link>
                         </li>
                         <li  className=" text-gray-700 ">
@@ -204,7 +204,7 @@ export default function Navbar2 ({datalang, rendertest}){
                                 duration={1000}
                                 offset={-150}
                             >
-                                <button onClick={closeNavbar} className=" block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover/:text-white dark:hover/:bg-gray-700 dark:hover/:text-white md:dark:hover/:bg-transparent dark:border-gray-700">{data.navbar.contact}</button>
+                                <button onClick={closeNavbar} className=" w-full block py-2 pl-3 pr-4 rounded hover/:bg-gray-100 md:hover/:bg-transparent md:hover/:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{data.navbar.contact}</button>
                             </Link>
                         </li>
                     </ul>
