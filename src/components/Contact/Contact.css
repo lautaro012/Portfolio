@@ -1,5 +1,11 @@
 
+.fiximage{
+  top:-80px;
+}
 
+.zindex{
+  z-index: 1;
+}
 
 * {
   margin: 0px;
