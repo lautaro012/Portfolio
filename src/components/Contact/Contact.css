@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.botongpts-container {
+.buttons-container {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,7 +15,7 @@
   flex-wrap: wrap;
 }
 
-.botongpt {
+.button {
   display:flex;
   flex-direction: row;
   justify-content: center;
@@ -27,7 +27,7 @@
   margin-bottom: 1em;
 }
 
-.botongpt:hover {
+.button:hover {
   border: 2px solid white;
   cursor:pointer;
   box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.1);
@@ -56,80 +56,4 @@
 
 .reddit:hover {
   background: #ff6314;
-}
-
-.botongpt {
-  position: relative;
-  display: inline-block;
-  padding: 10px 25px;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  overflow: hidden;
-}
-
-.botongpt::before,
-.botongpt::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background-color: #fff;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease-in-out;
-  opacity: 0;
-}
-
-.botongpt::before {
-  z-index: -1;
-}
-
-.botongpt:hover::before {
-  width: 120%;
-  height: 120%;
-  opacity: 0.2;
-}
-
-.botongpt:hover::after {
-  width: 80%;
-  height: 80%;
-  opacity: 0.3;
-}
-
-.botongpt:hover {
-  color: #4CAF50;
-  background-color: #fff;
-}
-
-.botongpt:hover::before {
-  animation: pulse 2s infinite ease-in-out;
-}
-
-.botongpt:hover .botongpt__text {
-  transform: translateY(-50%);
-  transition: all 0.3s ease-in-out;
-}
-
-.botongpt:hover::before {
-  animation: pulse 2s infinite ease-in-out;
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
-  }
-  70% {
-    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-  }
 }
