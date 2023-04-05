@@ -13,7 +13,7 @@ export default function Card ({data, el}) {
    }  
 
     return (
-        <div className='conteiner-card duration-500'>
+        <div className='conteiner-card'>
                 <div className={!open ? "element-card" : "element-card open"}>
                     <div onClick={handleClick} className="front-facing flex flex-col justify-center items-center dark:bg-gray-600">
                         
@@ -84,7 +84,7 @@ export default function Card ({data, el}) {
                     </div>
 
 
-                    <div className='flex pt-4 flex-row w-full justify-around'>
+                    <div className='flex pt-4 lg:pt-16 flex-row w-full justify-around'>
 
                         <div className='flex flex-col'>
                             <span>Github:</span>

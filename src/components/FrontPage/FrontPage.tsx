@@ -9,14 +9,26 @@ export default function Frontpage ({dataLanguage}:any) {
 
 
     const [language, setLanguage] = useState(localStorage.getItem('language'))
+    const [loading, setLoading] = useState(false)
+    const [success, setSuccess] = useState(false)
+
     let lang = localStorage.getItem('language')
     let Data = dataLanguage
+
+    const handleCV = () => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false);
+            setSuccess(true)
+        }, 2000)
+    }
+
     return (
         <div>
             <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center lg:pt-16'>
                 <div className="flex flex-col justify-center">
-                    <h1 className="NAME lg:mb-12">  ROBLES LAUTARO </h1>
-                <h2>
+                    <h1 className="NAME lg:mt-12">  ROBLES LAUTARO </h1>
+                <h2 className="lg:h-20 h-12">
                     <Typewriter
                     words=
                         {
@@ -31,7 +43,7 @@ export default function Frontpage ({dataLanguage}:any) {
                     loop
                     />
                 </h2>
-                <span className="lg:mt-20">
+                <span className="">
                     {
                         lang === 'en' ?
                         dataLanguage.en.frontpage.span
@@ -39,6 +51,47 @@ export default function Frontpage ({dataLanguage}:any) {
                         dataLanguage.es.frontpage.span
                     }
                 </span>
+
+                <div className="flex justify-center align-center pt-12">
+
+
+                    <div className="">
+                        <button 
+                        className={
+                            loading ? 'boton loading' : success ? 'boton success' : 'boton'} 
+                        onClick={handleCV}>  
+
+                        {
+                            !loading && !success ?
+                                <span className="text-white">
+                                    {
+                                        lang === 'en' ?
+                                        dataLanguage.en.frontpage.cv
+                                        :
+                                        dataLanguage.es.frontpage.cv
+                                    }
+                                </span>
+                            :
+                            null
+                        }
+                            {
+                                loading || success ?
+                                <i className="fa"></i>
+                                :
+                                null  
+                            }
+                        </button>
+                    </div>
+
+                </div>
+                {/*
+                <button className="success pt-12">
+                    lang === 'en' ?
+                    dataLanguage.en.frontpage.cv
+                    :
+                    dataLanguage.es.frontpage.cv
+                </button>
+                */}
                 </div>
     
             <img width={500} className='w-0 lg:w-auto' src={photo} alt='asdfsadfdsaf'></img>

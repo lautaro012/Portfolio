@@ -64,7 +64,9 @@ export default function Navbar2 ({datalang, rendertest}){
                 </div>
                 <div className="flex">
                         <img src="https://servicio.us.es/empleovirtualus/wp-content/uploads/2015/12/02.png" width={32} className="h-6 mr-0 sm:h-9 sm:w-auto" alt="Flowbite Logo" />
-                        <span className="self-center text-base font-semibold whitespace-nowrap ">Robles Lautaro</span>
+                        
+                        <button className="self-center text-base font-semibold whitespace-nowrap hover:border-b">Robles Lautaro</button>
+
                 </div>
                 <div className="flex items-center md:order-2">
                     <button type="button" onClick={handleLanguage} data-dropdown-toggle="language-dropdown-menu" className="inline-flex items-center justify-center px-2 py-2 text-sm text-gray-500 rounded-lg cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">

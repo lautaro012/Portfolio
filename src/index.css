@@ -3,7 +3,7 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family: Helvetica;
+  font-family: "Helvetica", "arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

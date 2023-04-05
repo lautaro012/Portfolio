@@ -18,7 +18,8 @@
             "typewriter": ["Desarrollador Front End",
             "Desarrollador Back End",
             "Tecnico en Industria de Procesos"],
-            "span": "Soy un desarrollador Full Stack con experiencia en aplicaciones web tanto en Front-end como Back end."
+            "span": "Soy un desarrollador Full Stack con experiencia en aplicaciones web tanto en Front-end como Back end.",
+            "cv": "Descargar CV"
         },
         "navbar": {
             "technologies": "Tecnologias",
@@ -116,7 +117,8 @@
             "typewriter": ["Front End Developer",
             "Back End Developer",
             "Technical Engineer"],
-            "span": "I am a Full Stack Developer with experience in Front-End and Back-End application development."
+            "span": "I am a Full Stack Developer with experience in Front-End and Back-End application development.",
+            "cv": "Download CV"
         },
         "navbar": {
             "technologies": "Technologies",
