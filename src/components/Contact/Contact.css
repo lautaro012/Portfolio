@@ -1,6 +1,8 @@
 
 .fiximage{
   top:-80px;
+  background: rgb(238, 238, 252) none repeat scroll 0% 0%;
+  border-radius: 10px;
 }
 
 .zindex{

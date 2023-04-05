@@ -37,7 +37,7 @@ function App() {
 
 
   return (
-    <div className="App dark:bg-gray-400 ">
+    <div className="App dark:bg-gray-900 duration-500 dark:text-gray-200 ">
       <div >
         <Navbar2 datalang={datalang} rendertest={rendertest} ></Navbar2>
       </div>

@@ -267,6 +267,18 @@ h2 span {
     height: 26rem;
   }
 }
+
+@media(min-width:700px) {
+  .element-card {
+    height: 23rem;
+  }
+}
+@media(min-width:400px) {
+  .element-card {
+    width: 23rem;
+  }
+}
+
 .element-card:hover {
 		transform: rotatey(15deg) translatex(0px) translatey(0px); 
 }
@@ -284,7 +296,7 @@ h2 span {
 		left: 0;
 		bottom: 0;
 		right: 0;
-		background-color: #ecf0f1;
+		background-color: rgb(238, 238, 252);
 		border: 2px white solid;
 		border-radius: 5px;
 }
@@ -337,8 +349,8 @@ h2 span {
 		left: 0;
 		bottom: 0;
 		right: 0;
-		background-color: #ecf0f1;
-		border: 2px white solid;
+		background-color: rgb(238, 238, 252);
+		border: 2px rgb(238, 238, 252) solid;
 		border-radius: 5px;
 		padding: 20px;
 		text-align: center;

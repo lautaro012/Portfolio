@@ -13,9 +13,9 @@ export default function Card ({data, el}) {
    }  
 
     return (
-        <div className='conteiner-card'>
+        <div className='conteiner-card duration-500'>
                 <div className={!open ? "element-card" : "element-card open"}>
-                    <div onClick={handleClick} className="front-facing flex flex-col justify-center items-center">
+                    <div onClick={handleClick} className="front-facing flex flex-col justify-center items-center dark:bg-gray-600">
                         
                         <span>{el.name}</span>
                         
@@ -66,7 +66,7 @@ export default function Card ({data, el}) {
                         </span>
                     </button>  
                     </div>
-                <div onClick={handleClick} className="back-facing">
+                <div onClick={handleClick} className="back-facing dark:bg-gray-600">
 
 
                     <div className='flex flex-col'>
@@ -79,7 +79,7 @@ export default function Card ({data, el}) {
                         
                         <span className='text-lg font-bold'> Challenge Presented:</span>   
 
-                        <span className='text-sm font-medium'>"🍔 Check where is your order as User whit the GoogleMaps API integrated"</span>
+                        <span className='text-sm font-medium'>{el.challenge}</span>
 
                     </div>
 

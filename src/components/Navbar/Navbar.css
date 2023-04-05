@@ -10,6 +10,12 @@
     color:white
 } */
 
+.estilosborde{
+
+  border-bottom: rgb(238, 238, 252) 1px solid;
+}
+
+
 .navbar-conteiner {
   position: absolute;
   top: 2.5rem;

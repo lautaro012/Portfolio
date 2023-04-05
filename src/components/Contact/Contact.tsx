@@ -12,9 +12,10 @@ export default function Contact (datalang:any) {
 
     return (
         <div className='lg:flex lg:flex-row '>
-            <div className=' m-2 flex flex-col lg:w-1/3'>
+            <div className=' m-2 flex flex-col lg:w-1/3 '>
                     <img src={imgcontact} className='self-center zindex' width={150} alt='alt'></img>
-                <div className='pt-24 relative pb-4 pl-4 pr-4 bg-gray-100 dark:bg-gray-500 fiximage '>
+
+                <div className='pt-24 relative pb-4 pl-4 pr-4 bg-gray-100 dark:bg-gray-700 dark:text-gray-200 duration-500 fiximage '>
                     <span> {data.contact.findme}  </span>
                     <div className='flex flex-row justify-center'>
                         <div className='m-4'>
@@ -29,24 +30,25 @@ export default function Contact (datalang:any) {
                         </div>
                     </div>
                     <div className='flex flex-row justify-center '>
-                        <div className='button facebook mr-12'>
+                        <div className='button facebook w-1/3'>
                             <i className="fa fa-phone fa-2x"></i>
                         </div>
 
-                        <span className=" self-center text-md font-semibold whitespace-nowrap dark:text-white">
+                        <span className=" w-2/3 self-center text-sm font-semibold whitespace-nowrap">
                             +54 2804-655549
                         </span>
                     </div>
-                    <div className='flex flex-row justify-evenly'>
-                        <div className='button instagram mr-8'>
+                    <div className='flex flex-row justify-center'>
+                        <div className='button instagram w-1/3'>
                             <i className="fab fa-google fa-2x"></i>
                         </div>
 
-                        <span className="self-center text-xs font-semibold whitespace-nowrap dark:text-white">
+                        <span className=" w-2/3 pl-2 self-center text-xs font-semibold whitespace-nowrap ">
                             Lautaro0121@gmail.com
                         </span>
                     </div>
                 </div>
+
             </div>
 
 

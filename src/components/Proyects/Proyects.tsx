@@ -46,12 +46,12 @@ export default function Proyects (datalang:any) {
     let language = localStorage.getItem('language')
     let data = language === 'en' ? datalang.datalang.en : datalang.datalang.es
     
-    console.log(data, 'datalang proyects')
     const proyects = [
         { 
             name: `${data.projects.resto.name}`,
             title: "The Webpage of your favorite Restaurant:",
-            description: data.projects.resto.description,
+            description: data.projects.resto.description,            
+            challenge: data.projects.resto.challenge,
             images: [
                 FrontLight,
                 Cart,
@@ -94,6 +94,7 @@ export default function Proyects (datalang:any) {
             name: `${data.projects.gamestore.name}`,
             title: "E-commerce of Digital Videogames:",
             description: data.projects.gamestore?.description,
+            challenge: data.projects.gamestore.challenge,
             images: [
                 Games,
                 GameDetail2,
@@ -133,6 +134,7 @@ export default function Proyects (datalang:any) {
             name:`${data.projects.letscook.name}`,
             title:"You don't know what to cook??",
             description : data?.projects.letscook?.description,
+            challenge: data.projects.letscook.challenge,
             images: [
                 landingcook,
                 createrecipe,
@@ -167,6 +169,7 @@ export default function Proyects (datalang:any) {
             name: `${data.projects.pokedex.name}`,
             title: "List of Pokemons",
             description: data.projects.pokedex.description,
+            challenge: data.projects.pokedex.challenge,
             images: [
                 Landingpokedex,
                 edit,
@@ -196,6 +199,7 @@ export default function Proyects (datalang:any) {
         {
             name:`${data.projects.reactcrush.name}`,
             description: data.projects.reactcrush.description,
+            challenge: data.projects.reactcrush.challenge,
             images: [
                 reactCrush,
                 reactFinish

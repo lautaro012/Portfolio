@@ -4,12 +4,12 @@
             "findme": "Encuentrame aqui:",
             "letswork": "Trabajemos juntos ",
             "form": {
-                "name": "Tu Name",
+                "name": "Tu Nombre",
                 "plname": "Escribe tu nombre..",
                 "email": "Tu email",
                 "plemail": "Escribe tu email..",
                 "message": "Tu mensaje",
-                "plmessage": "Trabajemos juntos.. ",
+                "plmessage": "Escribe tu mensaje.. ",
                 "send": "Enviar",
                 "loading": "Cargando.."
             }
@@ -30,40 +30,45 @@
             "resto": {
                 "name":"El Restaurante de Henry",
                 "description": [
-                    "🍔 Chequea y descarga nuestro catalogo",
-                    "🍔 Maneja tus ordenes, usuarios, comidas y deliverys como Administrador",
-                    "🍔 Segui tus ordenes y recibi nuevas como un Delivery",
-                    "🍔 Segui tu orden como usuario con la implementacion de la API de Google Maps"
-                ]
+                    "🍔 Crear cuenta de usuario, crear ordenes en el carrito, comprarlas y darles seguimiento",
+                    "🍔 Manejar ordenes, usuarios, comidas y deliverys como Administrador",
+                    "🍔 Entregar y recibir ordenes nuevas como un Delivery",
+                    "🍔 Seguir ordenes como usuario con la implementacion de la API de Google Maps"
+                ],
+                "challenge": "Agregar el tercer usuario Delivery, lograr seguir por gps las ordenes y darles hora estimada de entrega"
             },
             "gamestore": {
                 "name": "Game Store",
                 "description": [
-                    "💻 Encontra tu videojuego favorito entre mas de 200", 
-                    "💻 Agregalo al carrito",
-                    "💻 Compra los juegos que mas te gusten (Stripe)", 
+                    "💻 Buscar, filtrar y crear ordenes de compra de videojuegos digitales", 
+                    "💻 Manejar ordenes y productos como Administrador",
+                    "💻 Deja reseñas de los productos que adquiriste", 
                     "💻 Administra tus usuarios, restringi comentarios y reseñas. Bloquea los no deseados"
-                ]
+                ],
+                "challenge": "Implementacion de una API con acceso limitado"
             },
             "letscook": {
                 "name": "A Cocinar!",
                 "description": [
-                    "📌Busca tus recetas favoritas por tipos (Ketogenica, vegetariana, vegana, etc)",
+                    "📌Buscar, filtrar y ordenar Recetas por tipos de dietas, favoritos o propias",
                     "📌Ordenalas por nombre o por mejor calificada",
                     "📌Crea y Edita tus propias recetas"
-                ]
+                ],
+                "challenge": "Implementacion de librerias nuevas tales como Bootstrap y Tailwind"
             },
             "pokedex": {
                 "name": "Pokedex",
                 "description":[
-                    "📌 Crea tu propio pokemon con sus propias estadisticas",
-                    "📌 Edita cualquier pokemon de la lista",
+                    "📌 Crear Pokemon con sus propias estadisticas",
+                    "📌 Editar cualquier pokemon de la lista",
                     "📌 Buscalos por nombre o por ID"
-                ]
+                ],
+                "challenge": "Implementacion de Typescript en un proyecto simple"
             },
             "reactcrush": {
                 "name": "React Crush-",
-                "description": ["Juego estilo -Candy Crush- desarrollado solo con React y logica de Javascript"]
+                "description": ["Juego estilo -Candy Crush- desarrollado solo con React y logica de Javascript"],
+                "challenge": "Crear y aplicar la logica correcta en Javascript"
             },
             "card": {
                 "more": "Saber mas.."
@@ -102,7 +107,7 @@
                 "email": "Your email",
                 "plemail": "Type your email..",
                 "message": "Your message",
-                "plmessage": "Let's work Together.. ",
+                "plmessage": "Write your message.. ",
                 "send": "Send",
                 "loading": "Loading.."
             }
@@ -123,40 +128,45 @@
             "resto": {
                 "name":"Henry's Restaurant",
                 "description": [
-                    "🍔 Check and Download the Catalogue",
-                    "🍔 Administrate your orders, users, food and Delivery mans as Administrator",
-                    "🍔 Track your orders and recieve new ones as Delivery",
-                    "🍔 Check where is your order as User whit the GoogleMaps API integrated"
-                ]
+                    "🍔 Create User account, Create orders, Buy and Track them",
+                    "🍔 Handle Orders, Users, Products and Delivery mans as Administrator",
+                    "🍔 Deliver and Accept new orders as Delivery Man",
+                    "🍔 Follow orders as User whit the implementation of Google Map's API"
+                ],
+                "challenge": "The addition of the third user 'Delivery man', and track orders using gps estimating arrival time"
             },
             "gamestore": {
                 "name": "Henry's Game Store",
                 "description": [
-                    "💻Find your favorites videogames", 
-                    "💻 Add them to the Cart",
-                    "💻 Buy them (Stripe)", 
-                    "💻 Administrate the users whit your admin account"
-                ]
+                    "💻 Search, filter and Create purcharse orders of digital videogames", 
+                    "💻 Handle Orders and Products as Administrator",
+                    "💻 Review the products you purchased", 
+                    "💻 Administrate your users, restrict comments and reviews, Ban unwanted"
+                ],
+                "challenge": "Implementation of a restricted API"
             },
             "letscook": {
                 "name": "Let's Cook!",
                 "description": [
-                    "📌Search by differents diets",
-                    "📌Order by name/rate",
-                    "📌Create and Edit your own Recipes"
-                ]
+                    "📌 Search and filter by Diets, Favorites or own",
+                    "📌 Order by Name or Score",
+                    "📌 Create and Edit your own Recipes"
+                ],
+                "challenge": "Implementation of new libraries such as Bootstrap and Tailwind"
             },
             "pokedex": {
                 "name": "Pokedex",
                 "description":[
-                    "📌 Create your own pokemon whit his stats",
-                    "📌 Edit any Pokemon on the list",
-                    "📌 Search any pokemon by his name or ID"
-                ]
+                    "📌 Create Pokemons whit their own Stadistics",
+                    "📌 Edit any Pokemon of the list",
+                    "📌 Search them by name or ID"
+                ],
+                "challenge": "First Typescript implementation"
             },
             "reactcrush": {
                 "name": "React Crush-",
-                "description": [" A 'Candy Crush' game developed only whit React and Javascript Logic"]
+                "description": [" A 'Candy Crush' game developed only whit React and Javascript Logic"],
+                "challenge": "Correct application of the Javascript logic"
             },
             "card": {
                 "more": "Know more.."
