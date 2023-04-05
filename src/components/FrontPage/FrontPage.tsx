@@ -53,14 +53,11 @@ export default function Frontpage ({dataLanguage}:any) {
                 </span>
 
                 <div className="flex justify-center align-center pt-12">
-
-
                     <div className="">
                         <button 
                         className={
                             loading ? 'boton loading' : success ? 'boton success' : 'boton'} 
                         onClick={handleCV}>  
-
                         {
                             !loading && !success ?
                                 <span className="text-white">
