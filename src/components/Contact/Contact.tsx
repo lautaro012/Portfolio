@@ -28,21 +28,21 @@ export default function Contact (datalang:any) {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-row justify-evenly '>
-                        <div className='button facebook'>
+                    <div className='flex flex-row justify-center '>
+                        <div className='button facebook mr-12'>
                             <i className="fa fa-phone fa-2x"></i>
                         </div>
 
-                        <span className="pl-2 self-center text-md font-semibold whitespace-nowrap dark:text-white">
+                        <span className=" self-center text-md font-semibold whitespace-nowrap dark:text-white">
                             +54 2804-655549
                         </span>
                     </div>
                     <div className='flex flex-row justify-evenly'>
-                        <div className='button instagram'>
+                        <div className='button instagram mr-8'>
                             <i className="fab fa-google fa-2x"></i>
                         </div>
 
-                        <span className="pl-2 self-center text-xs font-semibold whitespace-nowrap dark:text-white">
+                        <span className="self-center text-xs font-semibold whitespace-nowrap dark:text-white">
                             Lautaro0121@gmail.com
                         </span>
                     </div>

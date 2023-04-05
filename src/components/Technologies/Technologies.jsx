@@ -25,7 +25,7 @@ const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      partialVisibilityGutter: 0,
+      partialVisibilityGutter: 0.1,
       items: 3
     },
     desktop: {
