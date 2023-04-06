@@ -1,0 +1,14 @@
+[debug] [2023-04-06T05:40:11.510Z] ----------------------------------------------------------------------
+[debug] [2023-04-06T05:40:11.512Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lauta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2023-04-06T05:40:11.512Z] CLI Version:   11.25.3
+[debug] [2023-04-06T05:40:11.513Z] Platform:      win32
+[debug] [2023-04-06T05:40:11.513Z] Node Version:  v16.15.0
+[debug] [2023-04-06T05:40:11.514Z] Time:          Thu Apr 06 2023 02:40:11 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-04-06T05:40:11.514Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-06T05:40:11.594Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-06T05:40:11.595Z] > authorizing via signed-in user (lautaro0121@gmail.com)
+[debug] [2023-04-06T05:40:11.595Z] [iam] checking project portfolio-52775 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-06T05:40:11.598Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-52775:testIamPermissions [none]
+[debug] [2023-04-06T05:40:11.598Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-52775:testIamPermissions x-goog-quota-user=projects/portfolio-52775
+[debug] [2023-04-06T05:40:11.598Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-52775:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

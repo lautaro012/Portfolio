@@ -47,7 +47,7 @@ function App() {
       <div className='ml-4 mr-4 min-h-screen lg:ml-40 lg:mr-40' >  
         <Techno datalang={datalang}></Techno>
       </div>
-      <div className='ml-4 mr-4 lg:ml-40 lg:mr-40 min-h-screen' id='about'>
+      <div className='ml-4 mr-4 lg:ml-40 lg:mr-40 min-h-screen' >
         <Timeline datalang={datalang} ></Timeline>
       </div>
       <div className='ml-4 mr-4 lg:ml-40 lg:mr-40 min-h-screen' id='projects'>
