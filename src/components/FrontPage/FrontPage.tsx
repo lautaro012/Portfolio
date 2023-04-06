@@ -25,10 +25,10 @@ export default function Frontpage ({dataLanguage}:any) {
 
     return (
         <div>
-            <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center lg:pt-16'>
+            <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center pt-20'>
                 <div className="flex flex-col justify-center">
                     <h1 className="NAME lg:mt-12">  ROBLES LAUTARO </h1>
-                <h2 className="lg:h-20 h-12">
+                <h2 className="lg:h-20 h-20">
                     <Typewriter
                     words=
                         {
@@ -52,7 +52,7 @@ export default function Frontpage ({dataLanguage}:any) {
                     }
                 </span>
 
-                <div className="flex justify-center align-center pt-12">
+                <div className="flex justify-center align-center pt-20">
                     <div className="">
                         <button 
                         className={
