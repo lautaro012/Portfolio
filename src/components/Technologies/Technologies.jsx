@@ -75,7 +75,7 @@ export default function Techno (datalang) {
                     className='Carouseltest'
                     >
                         <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200   w-32 h-32'>
-                            <img  className=' w-auto' src={Typescripticon} alt='ts'></img>
+                            <img  className='' src={Typescripticon} alt='ts'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> Typescript </span></div>
                         <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
