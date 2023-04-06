@@ -29,13 +29,13 @@ const responsive = {
       items: 3
     },
     desktop: {
-      breakpoint: { max: 1400, min: 1024 },
+      breakpoint: { max: 1499, min: 731 },
       items: 2,
       partialVisibilityGutter:0.1
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      breakpoint: { max: 730, min: 464 },
+      items: 3,
       partialVisibilityGutter: 0
     },
     mobile: {
@@ -54,28 +54,27 @@ export default function Techno (datalang) {
 
     return (
         <div className="w-full">
-            <h2 className='p-12 flex justify-center'> {language === 'en' ? datalang.datalang.en.technologies.title : datalang.datalang.es.technologies.title} </h2>
-            <div className='md:flex sm:block md:m-8'>
+            <h2  className=' flex justify-center'> {language === 'en' ? datalang.datalang.en.technologies.title : datalang.datalang.es.technologies.title} </h2>
+            <div id='technologies' className='md:flex sm:block md:m-8'>
 
                 <div className='sm:m-4 md:w-5/12'>
-                    <h3 className='p-8 flex justify-center'> Front-end </h3>
-
-                    
+                    <h3  className='p-8 flex justify-center'> Front-end </h3>
+ 
                     <Carousel
-                    partialVisibile={true}
-                    ssr={true}
-                    infinite={false}
-                    transitionDuration={500}
-                    autoPlaySpeed={1700}
-                    responsive={responsive}
-                    slidesToSlide={1}                                                                                                                       
-                    arrows={false}
-                    rewind={true}
-                    autoPlay={true}
-                    className='Carouseltest'
+                        partialVisibile={true}
+                        ssr={true}
+                        infinite={true}
+                        transitionDuration={500}
+                        autoPlaySpeed={1700}
+                        responsive={responsive}
+                        slidesToSlide={1}                                                                                                                       
+                        arrows={false}
+                        rewind={true}
+                        autoPlay={true}
+                        className='Carouseltest'
                     >
                         <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200   w-32 h-32'>
-                            <img  className='' src={Typescripticon} alt='ts'></img>
+                            <img  width={55} className='' src={Typescripticon} alt='ts'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> Typescript </span></div>
                         <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
@@ -122,17 +121,17 @@ export default function Techno (datalang) {
                 <div className='sm:m-4 md:w-5/12' >
                     <h3 className='p-8'> Back-end </h3>
                     <Carousel 
-                infinite={true}
-                ssr={true}
-                autoPlaySpeed={1700}
-                responsive={responsive}
-                partialVisible={true}
-                slidesToSlide={1}                                                                                                                       
-                transitionDuration={500}
-                arrows={false}
-                rewind={true}
-                autoPlay={true}
-                className='Carouseltest'
+                        infinite={true}
+                        ssr={true}
+                        autoPlaySpeed={1700}
+                        responsive={responsive}
+                        partialVisible={true}
+                        slidesToSlide={1}                                                                                                                       
+                        transitionDuration={500}
+                        arrows={false}
+                        rewind={true}
+                        autoPlay={true}
+                        className='Carouseltest'
                     >
                         <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img width={55} className='' src={NodeIcon} alt='Node'></img>

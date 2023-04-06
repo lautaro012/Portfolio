@@ -44,7 +44,7 @@ function App() {
       <div className='ml-4 mr-4 min-h-screen lg:ml-40 lg:mr-40'  id='home'>
         <Frontpage dataLanguage={datalang} ></Frontpage>
       </div>
-      <div className='ml-4 mr-4 min-h-screen lg:ml-40 lg:mr-40' id='technologies'>  
+      <div className='ml-4 mr-4 min-h-screen lg:ml-40 lg:mr-40' >  
         <Techno datalang={datalang}></Techno>
       </div>
       <div className='ml-4 mr-4 lg:ml-40 lg:mr-40 min-h-screen' id='about'>
