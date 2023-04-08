@@ -139,7 +139,7 @@ export default function Proyects (datalang:any) {
             title:"You don't know what to cook??",
             description : data?.projects.letscook?.description,
             challenge: data.projects.letscook.challenge,
-            deploy: 'https://henry-food-theta.vercel.app/',
+            deploy: 'https://lets-cook-eta.vercel.app/',
             github:'https://github.com/lautaro012/Henry-Food',
             images: [
                 landingcook,
