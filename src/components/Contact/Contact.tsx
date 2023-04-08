@@ -21,14 +21,14 @@ export default function Contact (datalang:any) {
                         <span> {data.contact.findme}  </span>
                         <div className='flex flex-row justify-center'>
                             <div className='m-4'>
-                            <a href='https://www.linkedin.com/in/lautaro-robles-57a5ba242/'>
+                            <a href='https://www.linkedin.com/in/lautaro-robles-57a5ba242/'  target="_blank" rel="noreferrer">
                                 <div className='button twitter'>
                                     <i className="fab fa-linkedin fa-2x"></i>
                                 </div>
                             </a>
                             </div>
                             <div className='m-4'>
-                                <a href='https://github.com/lautaro012'>
+                                <a href='https://github.com/lautaro012'  target="_blank" rel="noreferrer">
                                     <div className='button github'>
                                         <i className="fab fa-github fa-2x"></i>
                                     </div>

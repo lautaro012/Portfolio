@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import {Link} from 'react-scroll'
 import "./Navbar.css";
+import curricuCV from '../../Images/Robles Lautaro CV.pdf'
+
 
 export default function Navbar2 ({datalang, rendertest}){
     
@@ -64,8 +66,8 @@ export default function Navbar2 ({datalang, rendertest}){
                 </div>
                 <div className="flex">
                         <img src="https://servicio.us.es/empleovirtualus/wp-content/uploads/2015/12/02.png" width={32} className="h-6 mr-0 sm:h-9 sm:w-auto" alt="Flowbite Logo" />
-                        
-                        <button className="self-center text-base font-semibold whitespace-nowrap hover:border-b">Robles Lautaro</button>
+
+                        <a href={curricuCV} target="_blank" rel="noreferrer" className="self-center text-base font-semibold whitespace-nowrap hover:border-b">Robles Lautaro</a>
 
                 </div>
                 <div className="flex items-center md:order-2">
