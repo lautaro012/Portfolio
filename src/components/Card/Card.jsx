@@ -88,16 +88,16 @@ export default function Card ({data, el}) {
 
                         <div className='flex flex-col'>
                             <span>Github:</span>
-                            <div className='button github'>
+                            <a href={el.github} target="_blank" rel="noreferrer" className='button github'>
                                 <i className="fab fa-github fa-2x"></i>
-                            </div>
+                            </a>
                         </div>
 
                         <div className='flex flex-col'>
-                            <span>Deploy:</span>
-                            <div className='button reddit'>
+                            <span>Visit:</span>
+                            <a href={el.deploy} target="_blank" rel="noreferrer" className='button reddit'>
                                 <i className="fa-solid fa-window-maximize fa-2x"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
 

@@ -55,7 +55,7 @@ export default function Techno (datalang) {
     return (
         <div className="w-full">
             <h2  className=' flex justify-center'> {language === 'en' ? datalang.datalang.en.technologies.title : datalang.datalang.es.technologies.title} </h2>
-            <div id='technologies' className='md:flex sm:block md:m-8'>
+            <div id='technologies' className='md:flex sm:block md:m-8 justify-around'>
 
                 <div className='sm:m-4 md:w-5/12'>
                     <h3  className='p-8 flex justify-center'> Front-end </h3>

@@ -1,8 +1,9 @@
 // import Typed from 'react-typed'
-import React, { useEffect, useState } from "react"
+import { useState } from "react"
 import { Typewriter } from "react-simple-typewriter"
 import './Frontpage.css'
 import photo from '../../Images/home-main.svg'
+import curricuCV from '../../Images/Robles Lautaro CV.pdf'
 
 
 export default function Frontpage ({dataLanguage}:any) {
@@ -53,7 +54,8 @@ export default function Frontpage ({dataLanguage}:any) {
                 </span>
 
                 <div className="flex justify-center align-center pt-20">
-                    <div className="">
+                    <a href={curricuCV} target="_blank" 
+                    rel="noreferrer">
                         <button 
                         className={
                             loading ? 'boton loading' : success ? 'boton success' : 'boton'} 
@@ -78,7 +80,7 @@ export default function Frontpage ({dataLanguage}:any) {
                                 null  
                             }
                         </button>
-                    </div>
+                    </a>
 
                 </div>
                 {/*

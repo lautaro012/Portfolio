@@ -52,6 +52,8 @@ export default function Proyects (datalang:any) {
             title: "The Webpage of your favorite Restaurant:",
             description: data.projects.resto.description,            
             challenge: data.projects.resto.challenge,
+            deploy: 'https://e-resto-frontend-seven.vercel.app/',
+            github:'https://github.com/lautaro012/E-Resto-Frontend-',
             images: [
                 FrontLight,
                 Cart,
@@ -95,6 +97,8 @@ export default function Proyects (datalang:any) {
             title: "E-commerce of Digital Videogames:",
             description: data.projects.gamestore?.description,
             challenge: data.projects.gamestore.challenge,
+            deploy: 'https://henry-project.vercel.app/',
+            github:'https://github.com/lautaro012/Henry-Project/tree/main/henryproject',
             images: [
                 Games,
                 GameDetail2,
@@ -135,6 +139,8 @@ export default function Proyects (datalang:any) {
             title:"You don't know what to cook??",
             description : data?.projects.letscook?.description,
             challenge: data.projects.letscook.challenge,
+            deploy: 'https://henry-food-theta.vercel.app/',
+            github:'https://github.com/lautaro012/Henry-Food',
             images: [
                 landingcook,
                 createrecipe,
@@ -170,6 +176,8 @@ export default function Proyects (datalang:any) {
             title: "List of Pokemons",
             description: data.projects.pokedex.description,
             challenge: data.projects.pokedex.challenge,
+            deploy: 'https://poke-typescript-redux-1dpv.vercel.app/',
+            github:'https://github.com/lautaro012/Poke-Typescript-Redux',
             images: [
                 Landingpokedex,
                 edit,
@@ -200,6 +208,8 @@ export default function Proyects (datalang:any) {
             name:`${data.projects.reactcrush.name}`,
             description: data.projects.reactcrush.description,
             challenge: data.projects.reactcrush.challenge,
+            deploy: 'https://react-crush-seven.vercel.app/',
+            github:'https://github.com/lautaro012/React-Crush',
             images: [
                 reactCrush,
                 reactFinish

@@ -1,6 +1,6 @@
 import './App.css';
 import Frontpage from './components/FrontPage/FrontPage';
-import React, { SetStateAction, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Proyects from './components/Proyects/Proyects';
 import Navbar2 from './components/Navbar/Navbar2.jsx';
 import Contact from './components/Contact/Contact';
