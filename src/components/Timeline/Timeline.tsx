@@ -36,8 +36,8 @@ export default function Timeline (datalang:any) {
 
 
     return (
-        <div className="m-8">
-            <h2  className='p-12 flex justify-center'> {language === 'en' ? datalang.datalang.en.timeline.title : datalang.datalang.es.timeline.title} </h2>
+        <div className="">
+            <h2  className='lg:m-20 m-12 flex dark:text-white justify-center'> {language === 'en' ? datalang.datalang.en.timeline.title : datalang.datalang.es.timeline.title} </h2>
         <div className='lg:flex lg:flex-row'>    
             <ol id='about' className="relative border-l border-gray-200 dark:border-gray-700">                  
             <Fade cascade duration={500} >
