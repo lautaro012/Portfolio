@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Typewriter } from "react-simple-typewriter"
 import './Frontpage.css'
 import photo from '../../Images/home-main.svg'
-import curricuCV from '../../Images/Robles Lautaro CV.pdf'
+import curricuCV from '../../Images/Robles Lautaro.pdf'
 
 
 export default function Frontpage ({dataLanguage}:any) {
