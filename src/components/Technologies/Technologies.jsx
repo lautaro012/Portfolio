@@ -73,41 +73,41 @@ export default function Techno (datalang) {
                         autoPlay={true}
                         className='Carouseltest'
                     >
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200   w-32 h-32'>
+                        <div className='flex justify-center  divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)]  dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200   w-32 h-32'>
                             <img  width={55} className='' src={Typescripticon} alt='ts'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> Typescript </span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55} className='' src={JsIcon} alt='js'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>Javascript</span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55} className='' src={HTMLIcon} alt='html'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> HTML </span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55} className='' src={Cssicon} alt='css'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> CSS </span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55} className='' src={TailwindIcon} alt='twcss'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> Tailwind </span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55} className='' src={BootstrapIcon} alt='btscss'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> Bootstrap </span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55}  className='' src={Reacticon} alt='react'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> ReactJS </span>
                         </div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55}  className='' src={Reduxicon} alt='redux'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> ReduxJS </span>
                         </div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55} className='' src={FigmaIcon} alt='figma'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'> Figma </span>
@@ -133,19 +133,19 @@ export default function Techno (datalang) {
                         autoPlay={true}
                         className='Carouseltest'
                     >
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img width={55} className='' src={NodeIcon} alt='Node'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>NodeJS</span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img  width={55} className='' src={MongoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>MongoDB</span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img  width={55} className='' src={PostgressIcon} alt='PostgreSQL'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>PostgreSQL</span></div>
-                        <div className='flex justify-center divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img width={55} className='' src={SequelizeIcon} alt='sql'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>Sequelize</span></div>
@@ -156,21 +156,21 @@ export default function Techno (datalang) {
                 <h3 className='p-8'> {language === 'en' ? datalang.datalang.en.technologies.learning : datalang.datalang.es.technologies.learning} </h3>
                 <div className='flex flex-col md:flex-row items-center'>
                     <Fade  cascade duration={3000} damping={1}>
-                        <div className='flex justify-center lg:m-4 w-32 md:w-32 divcard dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center lg:m-4 w-32 md:w-32 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img width={55} className='' src={NextJSIcon} alt='Node'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>NextJS</span>
                         </div>
                     </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center lg:m-4 divcard dark:bg-gray-700 dark:text-gray-200 w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center lg:m-4 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img  width={55} className='' src={DjangoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4'>Django</span>
                         </div>
                    </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center lg:m-4 divcard dark:bg-gray-700 dark:text-gray-200 flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                        <div className='flex justify-center lg:m-4 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
                             <img  width={55} className='' src={ReactnativeIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
                             <span className='h-1/4 text-sm' >React Native</span>

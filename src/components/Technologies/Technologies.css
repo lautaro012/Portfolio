@@ -1,8 +1,14 @@
 .divcard {
     border-radius: 20px;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
     background: rgb(238, 238, 252) none repeat scroll 0% 0%;
 }
+
+.darkdivcard {
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(255, 254, 254, 0.2),0px 10px 15px -3px rgba(242, 238, 238, 0.2);
+    background: rgb(238, 238, 252) none repeat scroll 0% 0%;
+}
+
 
 .Carouseltest{
 
