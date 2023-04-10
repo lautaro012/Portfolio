@@ -28,6 +28,7 @@ export default function Card ({data, el}) {
                         showIndicators={false}
                         showThumbs={false}
                         animationHandler={'fade'}
+                        swipeable={false}
                         >
                             {
                                 el.images.map(img => {
