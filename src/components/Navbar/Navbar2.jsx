@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {Link} from 'react-scroll'
 import "./Navbar.css";
-import curricuCV from '../../Images/Robles Lautaro CV.pdf'
+import curricuCV from '../../Images/Robles-Lautaro CV.pdf'
 
 
 export default function Navbar2 ({datalang, rendertest}){

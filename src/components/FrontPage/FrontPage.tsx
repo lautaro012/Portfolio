@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Typewriter } from "react-simple-typewriter"
 import './Frontpage.css'
 import photo from '../../Images/home-main.svg'
-import curricuCV from '../../Images/Robles Lautaro CV.pdf'
+import curricuCV from '../../Images/Robles-Lautaro CV.pdf'
 
 
 export default function Frontpage ({dataLanguage}:any) {
@@ -54,7 +54,7 @@ export default function Frontpage ({dataLanguage}:any) {
                 </span>
 
                 <div className="flex justify-center align-center pt-20">
-                    <a href={curricuCV} target="_blank" 
+                    <a href={curricuCV} target="_blank"
                     rel="noreferrer">
                         <button 
                         className={
