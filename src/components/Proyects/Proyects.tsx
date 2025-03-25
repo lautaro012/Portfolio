@@ -32,6 +32,8 @@ import kotlinIcon from '../../Icons/Kotlin.png'
 import nestjsIcon from '../../Icons/NestJS.png'
 import blip1 from '../../Images/blipmobile/blip1.png'
 import blip2 from '../../Images/blipmobile/blip2.png'
+import perdido1 from '../../Images/perdidos/perdido.png'
+import perdido2 from '../../Images/perdidos/perdido2.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card from "../Card/Card.jsx";
@@ -251,9 +253,8 @@ export default function Proyects (datalang:any) {
             deploy: null,
             github: null,
             images: [
-                Landingpokedex,
-                edit,
-                newpokemon
+                perdido1,
+                perdido2
             ],
             technologies: [
                 {
