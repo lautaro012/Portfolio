@@ -76,8 +76,8 @@ export default function Card ({data, el}) {
                         {el.description.map(words => {
                         return <span className='text-sm font-medium' >{words}</span>
                         })}
-                        
-                        <span className='text-lg font-bold'> Challenge Presented:</span>   
+
+                        <span className='text-lg font-bold pt-4'> Challenge Presented:</span>   
 
                         <span className='text-sm font-medium'>{el.challenge}</span>
 

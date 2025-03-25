@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/eae3ee2750.js" crossorigin="anonymous"></script>
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("GIKXYbzxQXOgqQb5b");
+      })();
+    </script>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+      // // Whenever the user explicitly chooses light mode
+      // localStorage.theme = 'light'
+  
+      // // Whenever the user explicitly chooses dark modef
+      // localStorage.theme = 'dark'
+  
+      // // Whenever the user explicitly chooses to respect the OS preference
+      // localStorage.removeItem('theme')
+      </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
+    <title>Robles Lautaro E.</title>
 </head>
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
