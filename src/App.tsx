@@ -15,13 +15,10 @@ function App() {
 
  var datalang:any = Data
  const [setLanguage, useSetLanguage] = useState(localStorage.getItem("language"))
- const [render, setRender] = useState(false)
  const [dataLanguage, setDataLanguage] = useState({})
 
 
-  useEffect(() => {
-   // console.log('testing')
-  }, [render])
+
 
   useEffect(()=> {
     if(!setLanguage) {
@@ -30,7 +27,6 @@ function App() {
   },[setLanguage])
   
   const rendertest = (num:number) => {
-    //render ? setRender(false) : setRender(true)
     let currentlanguage = localStorage.getItem('language')
     currentlanguage === 'es' ? setDataLanguage(Data.es) : setDataLanguage(Data.en)
   }

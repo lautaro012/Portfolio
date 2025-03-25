@@ -3,13 +3,12 @@ import { useState } from 'react'
 import './Card.css'
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-
 export default function Card ({data, el}) {
 
    const [open, setOpen] = useState(false)
 
    const handleClick = () => {
-       open ? setOpen(false) : setOpen(true)
+       setOpen(!open)
    }  
 
     return (
@@ -35,7 +34,7 @@ export default function Card ({data, el}) {
                                     
                                     return (
                                     <div>
-                                        <img  onClick={handleClick} className='max-w-20 image-proyect-hover m-1 p-4 rounded-lg h-content' src={img} alt='asd'></img>
+                                        <img  onClick={handleClick} className='max-w-20 imageTechnologies image-proyect-hover m-1 p-4 rounded-lg h-content' src={img} alt='asd'></img>
                                     </div>
                                     )    
                             })
@@ -86,20 +85,28 @@ export default function Card ({data, el}) {
 
 
                     <div className='flex pt-4 lg:pt-16 flex-row w-full justify-around'>
-
-                        <div className='flex flex-col'>
-                            <span>Github:</span>
-                            <a href={el.github} target="_blank" rel="noreferrer" className='button github'>
-                                <i className="fab fa-github fa-2x"></i>
-                            </a>
-                        </div>
-
-                        <div className='flex flex-col'>
-                            <span>Visit:</span>
-                            <a href={el.deploy} target="_blank" rel="noreferrer" className='button reddit'>
-                                <i className="fa-solid fa-window-maximize fa-2x"></i>
-                            </a>
-                        </div>
+                        {
+                            el.github === null ? 
+                            <></>
+                            :
+                            <div className='flex flex-col'>
+                                <span>Github:</span>
+                                <a href={el.github} target="_blank" rel="noreferrer" className='button github'>
+                                    <i className="fab fa-github fa-2x"></i>
+                                </a>
+                            </div>
+                        }
+                        {
+                            el.deploy === null ? 
+                            <></>
+                            :
+                            <div className='flex flex-col'>
+                                <span>Visit:</span>
+                                <a href={el.deploy} target="_blank" rel="noreferrer" className='button reddit'>
+                                    <i className="fa-solid fa-window-maximize fa-2x"></i>
+                                </a>
+                            </div>
+                        }
                     </div>
 
 

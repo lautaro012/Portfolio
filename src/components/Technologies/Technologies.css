@@ -1,6 +1,7 @@
 .divcard {
     border-radius: 20px;
     background: rgb(238, 238, 252) none repeat scroll 0% 0%;
+    min-height: 8rem;
 }
 
 .darkdivcard {
@@ -9,7 +10,3 @@
     background: rgb(238, 238, 252) none repeat scroll 0% 0%;
 }
 
-
-.Carouseltest{
-
-}

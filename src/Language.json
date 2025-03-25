@@ -17,6 +17,7 @@
         "frontpage": {
             "typewriter": ["Desarrollador Front End",
             "Desarrollador Back End",
+            "Desarrollador Mobile",
             "Tecnico en Industria de Procesos"],
             "span": "Soy un desarrollador web full-stack especializado en el desarrollo frontend con React. Creo aplicaciones web visualmente atractivas e interactivas con un enfoque en ofrecer resultados excepcionales a través de un código limpio y eficiente.",
             "cv": "Descargar CV"
@@ -116,8 +117,9 @@
         "frontpage": {
             "typewriter": ["Front End Developer",
             "Back End Developer",
+            "Mobile Developer",
             "Technical Engineer"],
-            "span": "I specialize in frontend development with React as a full-stack web developer. I create visually appealing and interactive web applications with a focus on delivering exceptional results through clean, efficient code.",
+            "span": "With three years of experience as a Web and Mobile Developer, I have worked with Kotlin and React Native for mobile apps, as well as TypeScript and React for web development. I have successfully launched apps on the Play Store. I’m always looking for an opportunity to contribute my skills, enthusiasm, and dedication in a professional environment that values hard work and mutual respect.",
             "cv": "Download CV"
         },
         "navbar": {
@@ -165,6 +167,24 @@
                 ],
                 "challenge": "First Typescript implementation"
             },
+            "blipmobile": {
+                "name": "BlipMobile",
+                "description":[
+                    "📌 Buy your tracking device and found your pet anywhere in the world",
+                    "📌 Create Geofences and warnings that will notify you if your pet is out of range",
+                    "📌 Create your pet custom profile whit photos, descriptions and all the information you have"
+                ],
+                "challenge": "React Native Mobile application"
+            },
+            "perdidos": {
+                "name": "Lost in the world",
+                "description":[
+                    "📌 Social Network for people who want to travel all around the world",
+                    "📌 Chat whit your friends, post everything you want and show your routes whit everyone",
+                    "📌 Create your routes whit 2 clicks, track them whit your GPS or add image pins in the places you visit"
+                ],
+                "challenge": "React Native Mobile whit Backend Application"
+            },
             "reactcrush": {
                 "name": "React Crush-",
                 "description": [" A 'Candy Crush' game developed only whit React and Javascript Logic"],
@@ -182,18 +202,23 @@
             "title": "Experience",
             "technical": {
                 "name": "Technical Engineering",
-                "from": "From 2007 to 2012",
+                "from": "From 2009 to 2012",
                 "description": "Create, Manage and supervise different aspects of companies such as Production Processes, Legal Framework, Safety and Hygiene and finances"
             },
             "computerprogramming": {
-                "name": "Licenciate Degree, Computer Programming",
-                "from": "Started on Jan, 2019 (in progress)",
-                "description": "Currently studying computer programming at the National University of La Plata (UNLP). Distinguished degrees in Algebra, Logic, and Mathematical Analysis"
+                "name": "Licenciate Degree, Analyst Programming",
+                "from": "Started on Jan, 2022 (in progress)",
+                "description": "Currently studying analyst programming at the national university of the patagonia 'San Juan Bosco'(UNPSJB). Distinguished degrees in Algebra, Logic, and Mathematical Analysis"
             },
             "henry": {
                 "name": "Fullstack Web Developer",
                 "from": "Graduated on Sept, 2022",
                 "description": "+1000hs of coding at soyhenry.com bootcamp, specialized in MERN, Pair programming, Leadership and Teamwork"
+            },
+            "blipconnection": {
+                "name": "Fullstack Developer at BlipConnection",
+                "from": "From 2023 to 2024",
+                "description": "Started as intern, ended as Fullstack Developer. I was part of a team that created a web and a mobile application for a company that track MQTT Devices and monitor their status"
             }
         }
     }

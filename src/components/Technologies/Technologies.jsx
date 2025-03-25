@@ -8,14 +8,17 @@ import Reduxicon from '../../Icons/Redux.png'
 import Typescripticon from '../../Icons/Typescript.png'
 import Carousel from "react-multi-carousel";
 import HTMLIcon from '../../Icons/HTML.png'
-import FigmaIcon from '../../Icons/Figma.png'
+import KotlinIcon from '../../Icons/Kotlin.png'
+import NestJSIcon from '../../Icons/NestJS.png'
 import SequelizeIcon from '../../Icons/Sequelize.png'
 import TailwindIcon from '../../Icons/Tailwind.png'
-import {  Fade } from "react-awesome-reveal";
-import BootstrapIcon from '../../Icons/Bootstrap.png'
 import ReactnativeIcon from '../../Icons/react-native.png'
 import NextJSIcon from '../../Icons/nextjs.svg'
 import DjangoIcon from '../../Icons/django.svg'
+import AWSIcon from '../../Icons/aws.png'
+import DockerIcon from '../../Icons/docker.png'
+import CSharpIcon from '../../Icons/Csharp.png'
+import {  Fade } from "react-awesome-reveal";
 import './Technologies.css'
 
 
@@ -94,9 +97,10 @@ export default function Techno (datalang) {
                             <span className='h-2'></span>
                             <span className='h-1/4'> Tailwind </span></div>
                         <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
-                            <img width={55} className='' src={BootstrapIcon} alt='btscss'></img>
+                            <img width={45} className='' src={ReactnativeIcon} alt='btscss'></img>
                             <span className='h-2'></span>
-                            <span className='h-1/4'> Bootstrap </span></div>
+                            <span className='h-1/4'> React Native </span>
+                        </div>
                         <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
                             <img width={55}  className='' src={Reacticon} alt='react'></img>
                             <span className='h-2'></span>
@@ -108,9 +112,9 @@ export default function Techno (datalang) {
                             <span className='h-1/4'> ReduxJS </span>
                         </div>
                         <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200  w-32 h-32'>
-                            <img width={55} className='' src={FigmaIcon} alt='figma'></img>
+                            <img width={55} className='' src={KotlinIcon} alt='figma'></img>
                             <span className='h-2'></span>
-                            <span className='h-1/4'> Figma </span>
+                            <span className='h-1/4'> Kotlin </span>
                         </div>
                     </Carousel>
 
@@ -140,7 +144,13 @@ export default function Techno (datalang) {
                         <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img  width={55} className='' src={MongoIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
-                            <span className='h-1/4'>MongoDB</span></div>
+                            <span className='h-1/4'>MongoDB</span>
+                        </div>                        
+                        <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
+                            <img  width={55} className='' src={NestJSIcon} alt='Mongo'></img>
+                            <span className='h-2'></span>
+                            <span className='h-1/4'>NestJS</span>
+                        </div>
                         <div className='flex justify-center divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4 w-32 h-32'>
                             <img  width={55} className='' src={PostgressIcon} alt='PostgreSQL'></img>
                             <span className='h-2'></span>
@@ -157,23 +167,23 @@ export default function Techno (datalang) {
                 <div className='flex flex-col md:flex-row items-center'>
                     <Fade  cascade duration={3000} damping={1}>
                         <div className='flex justify-center lg:m-4 w-32 md:w-32 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
-                            <img width={55} className='' src={NextJSIcon} alt='Node'></img>
+                            <img width={55} className='' src={DockerIcon} alt='Node'></img>
                             <span className='h-2'></span>
-                            <span className='h-1/4'>NextJS</span>
+                            <span className='h-1/4'>Docker</span>
                         </div>
                     </Fade>
                    <Fade cascade duration={3000} damping={1}>
                         <div className='flex justify-center lg:m-4 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
-                            <img  width={55} className='' src={DjangoIcon} alt='Mongo'></img>
+                            <img  width={55} className='' src={CSharpIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
-                            <span className='h-1/4'>Django</span>
+                            <span className='h-1/4'>C#</span>
                         </div>
                    </Fade>
                    <Fade cascade duration={3000} damping={1}>
-                        <div className='flex justify-center lg:m-4 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 flex-col w-32 md:w-32 items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
-                            <img  width={55} className='' src={ReactnativeIcon} alt='Mongo'></img>
+                        <div className='flex mw-32 justify-center lg:m-4 divcard dark:shadow-[0_35px_60px_-15px_rgba(255, 254, 254, 0.5)] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] dark:bg-gray-700 dark:text-gray-200 w-32 md:w-32 flex-col items-center border-double border-gray-400 m-2 bg-gray-200 m-4 p-4'>
+                            <img  width={55} className='' src={AWSIcon} alt='Mongo'></img>
                             <span className='h-2'></span>
-                            <span className='h-1/4 text-sm' >React Native</span>
+                            <span className='h-1/4'>AWS</span>
                         </div>
                    </Fade>
                 </div>

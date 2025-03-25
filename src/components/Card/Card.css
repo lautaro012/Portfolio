@@ -284,8 +284,8 @@ h2 span {
 }
 
 .element-card.open {
-		width: 100%rem;
-		height: 30rem;
+    width: 75%;
+		height: 25rem;
 		transform: rotatey(-180deg) translatex(0px) translatey(0px);
 }
 	
@@ -375,6 +375,9 @@ h2 span {
 				background-color: #2980b9;
 	}
 
+.imageTechnologies{
+  max-height: 195px;
+}
 .conteiner-card {
   display: flex;
   justify-content: center;

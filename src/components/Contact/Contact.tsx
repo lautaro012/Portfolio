@@ -1,9 +1,6 @@
-import { useState } from 'react'
 import './Contact.css'
 import Form from './Form.jsx'
 import imgcontact from '../../Images/avatar.svg'
-import { Slide, Fade } from "react-awesome-reveal";
-
 
 
 export default function Contact (datalang:any) {

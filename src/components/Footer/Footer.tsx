@@ -1,7 +1,5 @@
 import Reacticon from '../../Icons/React.png'
-import Typescripticon from '../../Icons/Typescript.png'
 import TailwindIcon from '../../Icons/Tailwind.png'
-import TS from '../../Icons/TS.png'
 import newTS from '../../Icons/newTS.svg'
 import './Footer.css'
 
