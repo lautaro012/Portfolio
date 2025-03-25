@@ -67,6 +67,24 @@
                 ],
                 "challenge": "Implementacion de Typescript en un proyecto simple"
             },
+            "blipmobile": {
+                "name": "Blipmobile",
+                "description":[
+                    "📌 Compra tu dispositivo de rastreo y encontra tu mascota en cualquier lugar del mundo",
+                    "📌 Crea Geocercas y alarmas que te notificaran cuando tu mascota se va de tu rango",
+                    "📌 Crea un perfil personalizado para tu mascota, con fotos, datos como peso, altura, y mucho mas"
+                ],
+                "challenge": "Aplicacion mobile con React Native y Kotlin"
+            },
+            "perdidos": {
+                "name": "Perdido en el mundo",
+                "description":[
+                    "📌 Red Social para personas que viajan por todo el",
+                    "📌 Chatea con tus amigos, postea lo que quieras y comparti tus rutas con todo el mundo",
+                    "📌 Crea tus rutas con 2 clicks, rastrealas con tu GPS y agrega imagenes en los lugares que visites"
+                ],
+                "challenge": "Aplicacion Mobile con React Native y Kotlin. Implementacion de Backend"
+            },
             "reactcrush": {
                 "name": "React Crush-",
                 "description": ["Juego estilo -Candy Crush- desarrollado solo con React y logica de Javascript"],
@@ -84,18 +102,23 @@
             "title": "Experiencia",
             "technical": {
                 "name": "Tecnico en Industria de Procesos",
-                "from": "desde 2007 hasta 2012",
+                "from": "Desde 2007 hasta 2012",
                 "description": "Crear, Manejar y Supervisar diferentes aspectos de las compañias como Procesos productivos, Marco juridico, Higiene y Seguridad, Gestion financiera, etc"
             },
             "computerprogramming": {
-                "name": "Licenciando en Programacion",
-                "from": "Inicio en Enero, 2019 (En progreso)",
-                "description": "Actualmente estudiando programacion en la Universidad nacional de La Plata (UNLP). Grados distinguidos en Algebra, Analisis Matematico y Logica"
-            },
+                "name": "Licenciado en Informatica, Analista Programador",
+                "from": "Inicio en Enero, 2022 (in progress)",
+                "description": "Actualmente estudiando analista programador universitario en la facultad nacional de la patagonia San Juan Bosco (UNPSJB). Grados distinguidos en Algebra, logica y Analisis matematico"
+            }, 
             "henry": {
-                "name": "Desarrollador Fullstack Web",
+                "name": "Fullstack Web Developer",
                 "from": "Graduado en Sept, 2022",
-                "description": "+1000hs de codigo en soyhenry.com bootcamp, especializado en MERN, Pair programming, Liderazgo y Trabajo en equipo."
+                "description": "+1000hs de codigo en soyhenry.com bootcamp, especializado en MERN, Pair programming, Liderazgo y Trabajo en Equipo"
+            },
+            "blipconnection": {
+                "name": "Fullstack Developer en BlipConnection",
+                "from": "Desde 2023 Hasta 2024",
+                "description": "Iniciado como interno, promovido luego a FullStack Developer. Fui parte de un equipo que creo una web y una aplicacion mobile para una compañia que rastrea aparatos MQTT y monitorea sus estadisticas"
             }
         }
     },
