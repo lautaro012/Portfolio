@@ -53,6 +53,77 @@ export default function Proyects (datalang:any) {
     let data = language === 'en' ? datalang.datalang.en : datalang.datalang.es
     
     const proyects = [
+        {
+            name: `${data.projects.blipmobile.name}`,
+            title: "Track your pets",
+            description: data.projects.blipmobile.description,
+            challenge: data.projects.blipmobile.challenge,
+            deploy: 'https://play.google.com/store/apps/details?id=com.blipconnection.blipmobile&hl=es_AR',
+            github:null,
+            images: [
+                blip1,
+                blip2
+            ],
+            technologies: [
+                {
+                    img:Typescripticon,
+                    name:'Typescript'
+                }
+                ,
+                {
+                    img:reactnativeIcon,
+                    name:'React Native'
+                },
+                {
+                    img:kotlinIcon,
+                    name:'Kotlin'
+                },
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+                {
+                    img:nestjsIcon,
+                    name:'NestJS'
+                },
+            ]
+        },
+        {
+            name: `${data.projects.perdidos.name}`,
+            title: "Social Network for Travelers",
+            description: data.projects.perdidos.description,
+            challenge: data.projects.perdidos.challenge,
+            deploy: null,
+            github: null,
+            images: [
+                perdido1,
+                perdido2
+            ],
+            technologies: [
+                {
+                    img:Typescripticon,
+                    name:'Typescript'
+                }
+                ,
+                {
+                    img:reactnativeIcon,
+                    name:'React Native'
+                },
+                {
+                    img:kotlinIcon,
+                    name:'Kotlin'
+                },
+                {
+                    img:Cssicon,
+                    name:'CSS Modules'
+                },
+                {
+                    img:nestjsIcon,
+                    name:'NestJS'
+                }
+                ,
+            ]
+        },
         { 
             name: `${data.projects.resto.name}`,
             title: "The Webpage of your favorite Restaurant:",
@@ -206,77 +277,6 @@ export default function Proyects (datalang:any) {
                 {
                     img:Reduxicon,
                     name:'Redux'
-                }
-                ,
-            ]
-        },
-        {
-            name: `${data.projects.blipmobile.name}`,
-            title: "Track your pets",
-            description: data.projects.blipmobile.description,
-            challenge: data.projects.blipmobile.challenge,
-            deploy: 'https://play.google.com/store/apps/details?id=com.blipconnection.blipmobile&hl=es_AR',
-            github:null,
-            images: [
-                blip1,
-                blip2
-            ],
-            technologies: [
-                {
-                    img:Typescripticon,
-                    name:'Typescript'
-                }
-                ,
-                {
-                    img:reactnativeIcon,
-                    name:'React Native'
-                },
-                {
-                    img:kotlinIcon,
-                    name:'Kotlin'
-                },
-                {
-                    img:Cssicon,
-                    name:'CSS Modules'
-                },
-                {
-                    img:nestjsIcon,
-                    name:'NestJS'
-                },
-            ]
-        },
-        {
-            name: `${data.projects.perdidos.name}`,
-            title: "Social Network for Travelers",
-            description: data.projects.perdidos.description,
-            challenge: data.projects.perdidos.challenge,
-            deploy: null,
-            github: null,
-            images: [
-                perdido1,
-                perdido2
-            ],
-            technologies: [
-                {
-                    img:Typescripticon,
-                    name:'Typescript'
-                }
-                ,
-                {
-                    img:reactnativeIcon,
-                    name:'React Native'
-                },
-                {
-                    img:kotlinIcon,
-                    name:'Kotlin'
-                },
-                {
-                    img:Cssicon,
-                    name:'CSS Modules'
-                },
-                {
-                    img:nestjsIcon,
-                    name:'NestJS'
                 }
                 ,
             ]
