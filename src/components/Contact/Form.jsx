@@ -24,8 +24,10 @@ export default function Form(datalang) {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        console.log('Sending email with data:', formData);
+        
         setLoading(true)
-        emailjs.sendForm("service_fxfcrcg", "template_rvna3m7", form.current, "GIKXYbzxQXOgqQb5b")      
+        emailjs.sendForm("service_fxfcrcg", "template_rvna3m7", form.current, "Y5btQNrIKdpF3YSzA")      
         .then((result) => {
             console.log(result.text);
             setLoading(false)
