@@ -26,7 +26,7 @@ export default function Frontpage ({dataLanguage}:any) {
     return (
         <div>
             <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center pt-20'>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center mt-12">
                     <h1 className="NAME lg:mt-12 mb-16">  ROBLES LAUTARO </h1>
                 <h2 className="lg:h-20 lg:text-black dark:text-white h-20">
                     <Typewriter
@@ -52,7 +52,7 @@ export default function Frontpage ({dataLanguage}:any) {
                     }
                 </span>
 
-                <div className="flex justify-center align-center pt-20">
+                <div className="flex justify-center align-center pt-4">
                     <a href={curricuCV} target="_blank"
                     rel="noreferrer">
                         <button 
