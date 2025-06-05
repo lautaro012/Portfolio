@@ -284,8 +284,8 @@ h2 span {
 }
 
 .element-card.open {
-    width: 75%;
-		height: 25rem;
+    width: 23rem;
+		height: 23rem;
 		transform: rotatey(-180deg) translatex(0px) translatey(0px);
 }
 	
@@ -352,12 +352,12 @@ h2 span {
 		background-color: rgb(238, 238, 252);
 		border: 2px rgb(238, 238, 252) solid;
 		border-radius: 5px;
-		padding: 20px;
+		padding: 12px;
 		text-align: center;
 		overflow: hidden;
 }
 .back-facing	p {
-			font-size: 14px;
+			font-size: 12px;
 			margin: 0;
 }
 .back-facing	a.btn {

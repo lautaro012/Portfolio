@@ -38,10 +38,10 @@ function App() {
       <div >
         <Navbar2 datalang={datalang} rendertest={rendertest} ></Navbar2>
       </div>
-      <div className='ml-4 mr-4 lg:ml-40 lg:mr-40'  id='home'>
+      <div className='my-4 pt-12 lg:ml-40 lg:mr-40'  id='home'>
         <Frontpage dataLanguage={datalang} ></Frontpage>
       </div>
-      <div className='ml-4 mr-4  lg:ml-40 lg:mr-40' >  
+      <div className='mx-4 py-8 lg:ml-40 lg:mr-40' >  
         <Techno datalang={datalang}></Techno>
       </div>
       <div className='ml-4 mr-4 lg:ml-40 lg:mr-40' >

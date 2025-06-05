@@ -25,7 +25,7 @@ export default function Frontpage ({dataLanguage}:any) {
 
     return (
         <div>
-            <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center pt-20'>
+            <div className='string-conteiner h-screen flex flex-col lg:flex-row justify-center'>
                 <div className="flex flex-col justify-center mt-12">
                     <h1 className="NAME lg:mt-12 mb-16">  ROBLES LAUTARO </h1>
                 <h2 className="lg:h-20 lg:text-black dark:text-white h-20">

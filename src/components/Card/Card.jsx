@@ -66,20 +66,22 @@ export default function Card ({data, el}) {
                         </span>
                     </button>  
                     </div>
+
+                    { /*  BACK */}
                 <div onClick={handleClick} className="back-facing dark:bg-gray-600">
 
 
                     <div className='flex flex-col'>
 
-                        <span className='text-lg font-bold'> Features:</span>   
+                        <span className='text-sm font-bold'> Features:</span>   
                         
                         {el.description.map(words => {
-                        return <span className='text-sm font-medium' >{words}</span>
+                        return <span className='text-xs font-medium' >{words}</span>
                         })}
 
-                        <span className='text-lg font-bold pt-4'> Challenge Presented:</span>   
+                        <span className='text-md font-bold pt-4'> Challenge Presented:</span>   
 
-                        <span className='text-sm font-medium'>{el.challenge}</span>
+                        <span className='text-xs font-medium'>{el.challenge}</span>
 
                     </div>
 
