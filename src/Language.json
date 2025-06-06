@@ -30,7 +30,7 @@
         },
         "projects":{
             "resto": {
-                "name":"El Restaurante de Henry",
+                "name":"Restaurante",
                 "description": [
                     "🍔 Crear cuenta de usuario, crear ordenes en el carrito, comprarlas y darles seguimiento",
                     "🍔 Manejar ordenes, usuarios, comidas y deliverys como Administrador",
@@ -113,7 +113,7 @@
             "henry": {
                 "name": "Fullstack Web Developer",
                 "from": "Graduado en Sept, 2022",
-                "description": "+1000hs de codigo en soyhenry.com bootcamp, especializado en MERN, Pair programming, Liderazgo y Trabajo en Equipo"
+                "description": "+1000hs de codigo en bootcamp, especializado en MERN, Pair programming, Liderazgo y Trabajo en Equipo"
             },
             "blipconnection": {
                 "name": "Fullstack Developer en BlipConnection",
@@ -153,7 +153,7 @@
         },
         "projects":{
             "resto": {
-                "name":"Henry's Restaurant",
+                "name":"Restaurant",
                 "description": [
                     "🍔 Create User account, Create orders, Buy and Track them",
                     "🍔 Handle Orders, Users, Products and Delivery mans as Administrator",
@@ -163,7 +163,7 @@
                 "challenge": "The addition of the third user 'Delivery man', and track orders using gps estimating arrival time"
             },
             "gamestore": {
-                "name": "Henry's Game Store",
+                "name": "Game Store",
                 "description": [
                     "💻 Search, filter and Create purcharse orders of digital videogames", 
                     "💻 Handle Orders and Products as Administrator",
@@ -236,7 +236,7 @@
             "henry": {
                 "name": "Fullstack Web Developer",
                 "from": "Graduated on Sept, 2022",
-                "description": "+1000hs of coding at soyhenry.com bootcamp, specialized in MERN, Pair programming, Leadership and Teamwork"
+                "description": "+1000hs of coding at bootcamp, specialized in MERN, Pair programming, Leadership and Teamwork"
             },
             "blipconnection": {
                 "name": "Fullstack Developer at BlipConnection",
